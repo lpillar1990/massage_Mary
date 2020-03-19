@@ -4,53 +4,51 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import Services from '../components/Services'
-import banner from '../assets/images/iceRinkBoot.jpg'
+import banner from '../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg'
 
 class HomeIndex extends React.Component {
   render() {
     return (
       <Layout>
         <Helmet
-          title="Podium Ice Skating"
+          title="Mary Lynch Massage Therapist"
           meta={[
-            { name: 'description', content: 'Ice Skating Coaching Belfast' },
+            { name: 'description', content: 'Massage therapy Lagos' },
             {
               name: 'keywords',
-              content:
-                'Ice Skating Belfast, Ice Skating Northern Ireland, Ice Skating Coaching Belfast',
+              content:'Massage, Massage Lagos, Massage Lagos Therapy',
             },
           ]}
         ></Helmet>
 
         <Banner
           img={this.props.data.image1.childImageSharp.fluid}
-          title="Podium Ice Skating"
+          title="Mary Lynch Massage Therapist"
         />
 
         <div id="main">
+        <div className="container my-5">
           <div className="row home_about">
-            <div className="container">
-              <p className="mt-5">
-                Podium Ice Skating has 50 years combined skating experience.
+              <p className="mt-3">
+              Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos or Burgau.
                 <br />
-                Work with our fully qualified team to learn, practice, improve
-                skills and improve your confidence.
               </p>
-              <p className="mt-5">
-                Our instructors have competed at the highest standard, they
-                understand the degree of discipline and hard work needed for
-                success. Our instructors are committed to the development of our
-                students and thrive to inspire them to reach their full
-                potential.
+              <p className="mt-3">
+              Whether your body needs attention after a day of walking, surfing or yoga or you want to relax and rejuvenate your face and body after a day in the sun, I will have a treatment that suits your needs.
+              </p>
+              <p className="mt-3">
+              The mobile service covers Lagos, Burgau and the surrounding areas. Can travel further for larger groups and a small fee will be added for travel depending on distance.
               </p>
             </div>
           </div>
+        </div>
+          <div className="my-5">
           <Services
             privateLesson={this.props.data.serviceImage1.childImageSharp.fluid}
             offIce={this.props.data.serviceImage2.childImageSharp.fluid}
             coreography={this.props.data.serviceImage3.childImageSharp.fluid}
           />
-        </div>
+           </div>
       </Layout>
     )
   }
@@ -79,16 +77,16 @@ export const indexImage = graphql`
 `
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "iceRinkBoot.jpg" }) {
+    image1: file(relativePath: { eq: "sean-o-KMn4VEeEPR8-unsplash.jpg" }) {
       ...indexImage
     }
-    serviceImage1: file(relativePath: { eq: "olaf.jpeg" }) {
+    serviceImage1: file(relativePath: { eq: "jared-rice-unsplash.jpg" }) {
       ...serviceImage
     }
-    serviceImage2: file(relativePath: { eq: "off_ice.png" }) {
+    serviceImage2: file(relativePath: { eq: "christin-hume-unsplash.jpg" }) {
       ...serviceImage
     }
-    serviceImage3: file(relativePath: { eq: "coreography.jpg" }) {
+    serviceImage3: file(relativePath: { eq: "saffu-unsplash.jpg" }) {
       ...serviceImage
     }
   }

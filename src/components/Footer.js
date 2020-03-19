@@ -8,23 +8,18 @@ const Footer = () => (
     <div className="row inner pb-5">
       <div className="container footer_container">
         <div className="col-md-3 footer_item text-left">
-          <h5>Podium Ice Skating</h5>
-          <a href="https://goo.gl/maps/YZqKE63QnMbEYT648" target="__blank">
+          <h5>Mary Lynch Massage Therapist</h5>
             <p className="mt-2">
-              111 Old Dundonald Rd <br />
+              111 XXX XXXXXX XX <br />
               Belfast <br />
               BT16 1XT
             </p>
-          </a>
           <div className="contact_links mt-3">
             <a href="tel:07938701165" className="pb-4">
               <h6>Edward: 07938701165</h6>
             </a>
-            <a href="tel:07592852558" className="pb-4">
-              <h6>Anastasiia: 07592852558</h6>
-            </a>
             <a href="mailto:podiumiceskating1@gmail.com" className="mt-5 pt-5">
-              <h6>podiumiceskating1@gmail.com</h6>
+              <h6>MaryLynchMassage@gmail.com</h6>
             </a>
           </div>
         </div>
@@ -55,7 +50,7 @@ const Footer = () => (
           <ul className="container icons mt-2">
             <li>
               <a
-                href="https://www.facebook.com/Podiumiceskating/"
+                // href="https://www.facebook.com/Podiumiceskating/"
                 target="__blank"
                 className="icon fa-facebook"
               >
@@ -64,7 +59,7 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="https://www.instagram.com/podium.ice/"
+                // href="https://www.instagram.com/podium.ice/"
                 target="__blank"
                 className="icon fa-instagram"
               >

@@ -8,13 +8,13 @@ class Contact extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Podium Ice Skate | Contact"
+          title="Mary Lynch | Contact"
           meta={[
-            { name: 'description', content: 'Ice Skating Coaching Belfast' },
+            { name: 'description', content: 'Massage therapy Lagos' },
             {
               name: 'keywords',
               content:
-                'Ice Skating Belfast, Ice Skating Northern Ireland, Ice Skating Coaching Belfast',
+                'Massage, Massage Lagos, Massage Lagos Therapy',
             },
           ]}
         ></Helmet>

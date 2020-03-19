@@ -11,20 +11,20 @@ class AboutUs extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Podium Skate | About Us"
+          title="Mary Lynch | About Us"
           meta={[
-            { name: 'description', content: 'Ice Skating Coaching Belfast' },
+            { name: 'description', content: 'Massage therapy Lagos' },
             {
               name: 'keywords',
               content:
-                'Ice Skating Belfast, Ice Skating Northern Ireland, Ice Skating Coaching Belfast',
+                'Massage, Massage Lagos, Massage Lagos Therapy',
             },
           ]}
         ></Helmet>
 
         <Banner
           img={this.props.data.image2.childImageSharp.fluid}
-          title="We Are Podium Ice Skate"
+          title="Mary Lynch Massage Therapist"
         />
 
         <div id="main">
@@ -43,13 +43,13 @@ class AboutUs extends React.Component {
           />
           <div className="container mb-5">
             <div className="text-center mb-5">
-              <Img
+              {/* <Img
                 fluid={this.props.data.image1.childImageSharp.fluid}
                 loading="lazy"
-              />
+              /> */}
             </div>
           </div>
-          <BannerContact />
+          {/* <BannerContact /> */}
         </div>
       </Layout>
     )
@@ -80,7 +80,7 @@ export const aboutImage = graphql`
 
 export const query = graphql`
   query {
-    anastasia: file(relativePath: { eq: "anastasia.png" }) {
+    anastasia: file(relativePath: { eq: "jairo-alzate-1CsfTx0DuLs-unsplash.jpg" }) {
       ...teamImage
     }
 
@@ -91,7 +91,7 @@ export const query = graphql`
       ...aboutImage
     }
 
-    image2: file(relativePath: { eq: "iceRinkBoot.jpg" }) {
+    image2: file(relativePath: { eq: "photo-1559946597-072cc7af3373.jpg" }) {
       ...aboutImage
     }
   }

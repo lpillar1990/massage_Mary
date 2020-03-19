@@ -1,8 +1,8 @@
 import React from 'react'
 import '../assets/scss/main.scss'
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../assets/css/overwrites.css'
-import Header from './Header'
+import Menubar from './Menubar'
 import Menu from './Menu'
 import Footer from './Footer'
 
@@ -43,7 +43,7 @@ class Layout extends React.Component {
           this.state.isMenuVisible ? 'is-menu-visible' : ''
         }`}
       >
-        <Header onToggleMenu={this.handleToggleMenu} />
+        <Menubar onToggleMenu={this.handleToggleMenu} />
         {children}
         <Footer />
         <Menu onToggleMenu={this.handleToggleMenu} />
