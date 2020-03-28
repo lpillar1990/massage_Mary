@@ -1,9 +1,9 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
-import Services from '../components/Services'
+import AboutMe from '../components/AboutMe'
 import banner from '../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg'
 
 class HomeIndex extends React.Component {
@@ -43,10 +43,10 @@ class HomeIndex extends React.Component {
           </div>
         </div>
           <div className="my-5">
-          <Services
-            privateLesson={this.props.data.serviceImage1.childImageSharp.fluid}
-            offIce={this.props.data.serviceImage2.childImageSharp.fluid}
-            coreography={this.props.data.serviceImage3.childImageSharp.fluid}
+          <AboutMe
+            massage={this.props.data.serviceImage1.childImageSharp.fluid}
+            relax={this.props.data.serviceImage2.childImageSharp.fluid}
+            therapy={this.props.data.serviceImage3.childImageSharp.fluid}
           />
            </div>
       </Layout>
@@ -59,7 +59,7 @@ export default HomeIndex
 export const serviceImage = graphql`
   fragment serviceImage on File {
     childImageSharp {
-      fluid(maxWidth: 340, maxHeight: 340) {
+      fluid {
         ...GatsbyImageSharpFluid
       }
     }
@@ -80,7 +80,7 @@ export const query = graphql`
     image1: file(relativePath: { eq: "sean-o-KMn4VEeEPR8-unsplash.jpg" }) {
       ...indexImage
     }
-    serviceImage1: file(relativePath: { eq: "jared-rice-unsplash.jpg" }) {
+    serviceImage1: file(relativePath: { eq: "julia-solonina-unsplash.jpg" }) {
       ...serviceImage
     }
     serviceImage2: file(relativePath: { eq: "christin-hume-unsplash.jpg" }) {

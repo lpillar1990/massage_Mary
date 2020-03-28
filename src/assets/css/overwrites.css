@@ -7,6 +7,9 @@
 a {
   color: black !important;
 }
+button > a {
+  color: white !important;
+}
 
 .blog_content a {
   color: #32aa9f !important;
@@ -22,12 +25,12 @@ a {
 }
 
 @font-face {
-  font-family: 'Avenir';
-  src: url('../fonts/avenir.otf') format('opentype');
+  font-family: "Avenir";
+  src: url("../fonts/avenir.otf") format("opentype");
 }
 
 body {
-  font-family: 'Avenir';
+  font-family: "Avenir";
 }
 
 img {

@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import logo from '../assets/images/logo.png'
+import logo from "../assets/images/logo.png";
 
 const Footer = () => (
   <footer id="footer">
@@ -9,16 +9,16 @@ const Footer = () => (
       <div className="container footer_container">
         <div className="col-md-3 footer_item text-left">
           <h5>Mary Lynch Massage Therapist</h5>
-            <p className="mt-2">
-              111 XXX XXXXXX XX <br />
-              Belfast <br />
-              BT16 1XT
-            </p>
+          <p className="mt-2">
+            111 XXX XXXXXX XX <br />
+            Belfast <br />
+            BT16 1XT
+          </p>
           <div className="contact_links mt-3">
             <a href="tel:07938701165" className="pb-4">
-              <h6>Edward: 07938701165</h6>
+              <h6>Mary: 07938776701165</h6>
             </a>
-            <a href="mailto:podiumiceskating1@gmail.com" className="mt-5 pt-5">
+            <a href="mailto:MaryLynchMassage@gmail.com" className="mt-5 pt-5">
               <h6>MaryLynchMassage@gmail.com</h6>
             </a>
           </div>
@@ -40,9 +40,9 @@ const Footer = () => (
             receive our (funny, clever, witty) newsletters. You may withdraw
             your consent at any time in the future. You can view our privacy
             policy <Link to="/privacy-policy"> here.</Link>
-          </p>
-          <ul className="copyright text-center mt-5">
-            <li>&copy; Podium Ice Skating 2019</li>
+          </p>*/}
+          {/* <ul className="copyright text-center mt-5">
+            <li>&copy; Mary Lynch Massage 2020</li>
           </ul> */}
         </div>
         <div className="col-md-3 footer_item ">
@@ -50,7 +50,7 @@ const Footer = () => (
           <ul className="container icons mt-2">
             <li>
               <a
-                // href="https://www.facebook.com/Podiumiceskating/"
+                // href="https://www.facebook.com"
                 target="__blank"
                 className="icon fa-facebook"
               >
@@ -59,7 +59,7 @@ const Footer = () => (
             </li>
             <li>
               <a
-                // href="https://www.instagram.com/podium.ice/"
+                // href="https://www.instagram.com"
                 target="__blank"
                 className="icon fa-instagram"
               >
@@ -68,12 +68,13 @@ const Footer = () => (
             </li>
           </ul>
           <Link to="/" className="logo">
-            <img src={logo} alt="logo" />
+            {/* <img src={logo} alt="logo" /> */}
+            <p>Logo</p>
           </Link>
         </div>
       </div>
     </div>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

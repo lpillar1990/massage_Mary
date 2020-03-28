@@ -10,7 +10,7 @@ const NotFoundPage = () => (
       <div className="row home_about">
         <div className="container">
           <h1>NOT FOUND</h1>
-          <p>You just hit a link that doesn&#39;t exist... </p>
+          <p>You just hit a link that doesn't exist... </p>
         </div>
       </div>
     </div>

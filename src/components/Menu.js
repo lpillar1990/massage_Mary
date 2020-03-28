@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "gatsby";
 
 const Menu = props => (
   <nav id="menu">
@@ -25,18 +25,10 @@ const Menu = props => (
     </div>
     <div className="container" id="menu_social">
       <div className="row d-flex justify-content-around">
-        <a
-          href="https://www.facebook.com/Podiumiceskating/"
-          target="__blank"
-          className="icon fa-facebook"
-        >
+        <a href="https://www.facebook.com/" target="__blank" className="icon fa-facebook">
           <span className="label">Facebook</span>
         </a>
-        <a
-          href="https://www.instagram.com/podium.ice/"
-          target="__blank"
-          className="icon fa-instagram"
-        >
+        <a href="https://www.instagram.com/" target="__blank" className="icon fa-instagram">
           <span className="label">Instagram</span>
         </a>
       </div>
@@ -45,10 +37,10 @@ const Menu = props => (
       Close
     </span>
   </nav>
-)
+);
 
 Menu.propTypes = {
-  onToggleMenu: PropTypes.func,
-}
+  onToggleMenu: PropTypes.func
+};
 
-export default Menu
+export default Menu;

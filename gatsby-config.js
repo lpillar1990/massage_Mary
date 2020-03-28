@@ -1,6 +1,6 @@
 const config = {
   siteMetadata: {
-    title: 'Podium Ice Skate',
+    title: 'Mary Lynch Massage Therapist',
     description: '',
   },
   plugins: [
