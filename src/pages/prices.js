@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import Img from "gatsby-image";
+import banner from "../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg";
 
 class prices extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class prices extends React.Component {
             }
           ]}
         ></Helmet>
-        <Banner img={this.props.data.image2.childImageSharp.fluid} title="Mary Lynch Massage Therapist" />
+        <Banner img={banner} title="Mary Lynch Massage Therapist" />
         <div id="main">
           <div className="container my-5">
             <div className="row my-4 prices">
