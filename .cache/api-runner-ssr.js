@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('C:/Users/Leo/Repositories/massage_Mary/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"start_url":"/","icon":"src/assets/images/favicon.png"},
+      options: {"plugins":[],"start_url":"/","icon":"src/assets/images/logo_new.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

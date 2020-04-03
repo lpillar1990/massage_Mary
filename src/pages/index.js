@@ -33,10 +33,9 @@ class HomeIndex extends React.Component {
               <p className="mt-3">
                 Whether your body needs attention after a day of walking, surfing or yoga or you want to relax and rejuvenate your face and body after
                 a day in the sun, I will have a treatment that suits your needs.
-              </p>
-              <p className="mt-3">
-                The mobile service covers Lagos, Burgau and the surrounding areas. Can travel further for larger groups and a small fee will be added
-                for travel depending on distance.
+                <br />
+                <br />
+                The mobile service covers Lagos, Burgau and the surrounding areas.
               </p>
             </div>
           </div>

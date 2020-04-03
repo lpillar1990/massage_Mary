@@ -18,9 +18,10 @@ const BannerContact = () => (
                 BT16 1XT
               </p>
               {/* </a> */}
-              <div className="contact_links black mb-5">
+              <div className="contact_links text-white mb-5">
                 <h4>
-                  Mary: <a href="tel:0759285200568">0759280052568</a>
+                  Mary: 0759280052568
+                  {/* <a href="tel:0759285200568"></a> */}
                 </h4>
                 <h5>
                   <a
@@ -31,6 +32,11 @@ const BannerContact = () => (
                     MaryLynchMassage@gmail.com
                   </a>
                 </h5>
+              </div>
+              <div className="container mb-5">
+                <p>*Working hours from 9am to 8pm*</p>
+                <br />
+                <p>Can travel further for larger groups.</p>
               </div>
             </div>
             <div className="col-sm-6 text-right contact_section_right ">

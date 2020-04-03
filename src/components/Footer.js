@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo1_new.png";
 
 const Footer = () => (
   <footer id="footer">
@@ -15,12 +15,12 @@ const Footer = () => (
             BT16 1XT
           </p>
           <div className="contact_links mt-3">
-            <a href="tel:07938701165" className="pb-4">
-              <h6>Mary: 07938776701165</h6>
-            </a>
-            <a href="mailto:MaryLynchMassage@gmail.com" className="mt-5 pt-5">
-              <h6>MaryLynchMassage@gmail.com</h6>
-            </a>
+            {/* <a href="tel:07938701165" className="pb-4">
+            </a> */}
+            <h6>Mary: 07938776701165</h6>
+            {/* <a href="mailto:MaryLynchMassage@gmail.com" className="mt-5 pt-5">
+            </a> */}
+            <h6>MaryLynchMassage@gmail.com</h6>
           </div>
         </div>
         <div className="col-md-6 footer_item">
@@ -68,8 +68,7 @@ const Footer = () => (
             </li>
           </ul>
           <Link to="/" className="logo">
-            {/* <img src={logo} alt="logo" /> */}
-            <p>Logo</p>
+            <img src={logo} alt="logo" width="100px" />
           </Link>
         </div>
       </div>

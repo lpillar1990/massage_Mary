@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
-import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import React, { Fragment } from "react";
+import { Link } from "gatsby";
+import Img from "gatsby-image";
 
 const AboutMe = ({ massage, relax, therapy }) => {
   return (
@@ -12,7 +12,6 @@ const AboutMe = ({ massage, relax, therapy }) => {
             <div className="col-sm-4">
               <div className="AboutMe">
                 <Img fluid={massage} loading="lazy" />
-
               </div>
             </div>
 
@@ -23,15 +22,15 @@ const AboutMe = ({ massage, relax, therapy }) => {
                 <h3 className="text-center black mt-3">Little bit about me</h3>
                 <br />
                 <p>
-                After beginning my massage journey studying Swedish Massage in London, I then continued my training qualifying in Deep Tissue and Ayurvedic Massage.
-                My true love and passion for helping people through massage began at home in Ireland with my work for a non-profit organisation, providing therapies for vulnerable adults and children.
+                  I have moved from my home in Ireland to the beautiful and sunny Algarve, where I am able to live out my passion, working as an
+                  alternative therapist, helping to heal and revitalize, while spending my spare time practicing yoga, swimming in the sea & being at
+                  one with nature.
                 </p>
               </div>
             </div>
             <div className="col-sm-4">
               <div className="AboutMe">
                 <Img fluid={therapy} loading="lazy" />
-
               </div>
             </div>
           </div>
@@ -43,7 +42,7 @@ const AboutMe = ({ massage, relax, therapy }) => {
         </button>
       </div>
     </Fragment>
-  )
-}
+  );
+};
 
-export default AboutMe
+export default AboutMe;

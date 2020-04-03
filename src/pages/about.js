@@ -10,7 +10,7 @@ class AboutUs extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Mary Lynch | About Us"
+          title="Mary Lynch | About Me"
           meta={[
             { name: "description", content: "Massage therapy Lagos" },
             {

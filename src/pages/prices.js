@@ -11,7 +11,7 @@ class prices extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Mary Lynch | Prices"
+          title="Mary Lynch | Menu"
           meta={[
             { name: "description", content: "Massage therapy Lagos" },
             {
@@ -30,7 +30,7 @@ class prices extends React.Component {
                 </p>
               </div>
               <div className="col-sm-4 text-right">
-                <p>45 mins €43 60 mins €53</p>
+                <p>45 mins €45 &nbsp; 60 mins €55</p>
               </div>
             </div>
             <div className="row my-4">
@@ -39,39 +39,42 @@ class prices extends React.Component {
                 <p>A deeper more targeting massage, loosening tired muscles and reducing fatigue.</p>
               </div>
               <div className="col-sm-4 text-right">
-                <p>45 mins €45 60 mins €55</p>
+                <p>45 mins €45 &nbsp; 60 mins €55</p>
               </div>
             </div>
             <div className="row my-4">
               <div className="col-sm-8">
                 <h4>Full Body Massage</h4>
                 <p>
-                  An ultra rejuvenating massage using Swedish and Deep Tissue techniques, this treatmemt is tailored to suit your bodies requirements.
+                  An ultra rejuvenating massage using Swedish and Deep Tissue techniques, this treatment is tailored to suit your bodies requirements.
                 </p>
               </div>
               <div className="col-sm-4 text-right">
-                <p>90 mins €70</p>
+                <p>60 mins €55 &nbsp; 90 mins €70</p>
+                <p></p>
               </div>
             </div>
             <div className="row my-4">
               <div className="col-sm-8">
-                <h4>Facial Massage - Ayurvedic</h4>
-                <p>The natural facelift - improving skin tone, relaxing facial muscles to make you look and feel refreshed and younger.</p>
+                <h4>Ayurvedic Facial Massage </h4>
+                <p>The natural facelift - Improving skin tone, relaxing facial muscles to make you look and feel refreshed and younger.</p>
               </div>
               <div className="col-sm-4 text-right">
-                <p>45 mins €38 60 mins €48</p>
+                <p>45 mins €40 &nbsp; 60 mins €48</p>
               </div>
             </div>
             <div className="row my-4">
               <div className="col-sm-8">
-                <h4>Foot Massage - Ayurvedic</h4>
+                <h4>Ayurvedic Foot Massage </h4>
                 <p>Relaxing the muscles around your feet and lower leg this massage re-energizes for another day of walking.</p>
               </div>
               <div className="col-sm-4 text-right">
-                <p>45mins €36</p>
+                <p>45 mins €35</p>
               </div>
             </div>
-            <p className="text-center"> All massages can be tailored to your needs from a targeted massage to a combination of any of the above.</p>
+            <p className="text-center">
+              All massages can be tailored to your needs from a targeted massage to a combination of any of the treatments.
+            </p>
           </div>
         </div>
       </Layout>
