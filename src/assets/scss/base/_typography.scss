@@ -32,13 +32,7 @@ textarea {
 
 a {
   text-decoration: none !important;
-  @include vendor(
-    'transition',
-    (
-      'color #{_duration(transition)} ease-in-out',
-      'border-bottom-color #{_duration(transition)} ease-in-out'
-    )
-  );
+  @include vendor("transition", ("color #{_duration(transition)} ease-in-out", "border-bottom-color #{_duration(transition)} ease-in-out"));
   color: inherit;
 
   &:hover {
@@ -64,6 +58,7 @@ i {
 
 p {
   margin: 0 0 _size(element-margin) 0;
+  font-size: 1.05em;
 }
 
 h1,
@@ -72,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Avenir-Black' !important;
+  font-family: "Avenir-Black" !important;
   color: black(fg-bold);
   font-weight: _font(weight-bold);
   line-height: 1.65;
@@ -138,8 +133,7 @@ blockquote {
   border-left: solid 4px _palette(border);
   font-style: italic;
   margin: 0 0 _size(element-margin) 0;
-  padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4)
-    _size(element-margin);
+  padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
 }
 
 code {

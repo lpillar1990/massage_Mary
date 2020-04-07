@@ -23,15 +23,7 @@ const BannerContact = () => (
                   Mary: 0759280052568
                   {/* <a href="tel:0759285200568"></a> */}
                 </h4>
-                <h5>
-                  <a
-                    href="mailto:MaryLynchMassage@gmail.com
-                    "
-                    className="my-5 green"
-                  >
-                    MaryLynchMassage@gmail.com
-                  </a>
-                </h5>
+                <h4>MaryLynchMassage@gmail.com</h4>
               </div>
               <div className="container mb-5">
                 <p>*Working hours from 9am to 8pm*</p>
@@ -43,7 +35,7 @@ const BannerContact = () => (
               <form className="form" name="contact" method="post" data-netlify="true" data-netify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group mb-2 text-left">
-                  <label htmlFor="">Enquiries</label>
+                  <label htmlFor="">Bookings / Enquiries</label>
                   <input type="text" className="form-control" placeholder="Name" name="name" />
                 </div>
                 <div className="form-group mb-2">

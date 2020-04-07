@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
@@ -16,12 +16,13 @@ class prices extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy"
-            }
+              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+            },
           ]}
         ></Helmet>
         <Banner img={banner} title="Mary Lynch Massage Therapist" />
         <div id="main">
+          <h2 className="text-center my-4">Menu</h2>
           <div className="container my-5">
             <div className="row my-4 prices">
               <div className="col-sm-8">
@@ -56,7 +57,7 @@ class prices extends React.Component {
             </div>
             <div className="row my-4">
               <div className="col-sm-8">
-                <h4>Ayurvedic Facial Massage </h4>
+                <h4>Ayurvedic Face Massage </h4>
                 <p>The natural facelift - Improving skin tone, relaxing facial muscles to make you look and feel refreshed and younger.</p>
               </div>
               <div className="col-sm-4 text-right">
@@ -72,9 +73,18 @@ class prices extends React.Component {
                 <p>45 mins €35</p>
               </div>
             </div>
+            <br />
             <p className="text-center">
               All massages can be tailored to your needs from a targeted massage to a combination of any of the treatments.
             </p>
+            <br />
+          </div>
+          <div className="text-center my-5">
+            <button>
+              <Link style={{ color: "white" }} to="/contact">
+                Book Now
+              </Link>
+            </button>
           </div>
         </div>
       </Layout>

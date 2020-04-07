@@ -16,27 +16,37 @@ function swedish() {
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Massage Lagos, Massage Lagos Therapy"
-          }
+            content: "Massage, Massage Lagos, Massage Lagos Therapy",
+          },
         ]}
       ></Helmet>
       <Banner img={banner} title="Mary Lynch Massage Therapist" />
-      {/* <div className="col-sm-3">
-        <div className="service">
-          <br />
-          <br />
+      <div id="main">
+        <div className="container p-5">
+          <div className="row justify-content-center">
+            <div className="col-sm-8">
+              <h2>Relaxing Swedish Massage</h2>
+              <br />
+              <p>
+                Relax the entire body, this treatment promotes harmony and balance in the whole body using soft, kneading strokes, focusing on the top
+                layer of the muscle. A detoxifying massage that improves circulation and flexibility while easing stress and tension.
+              </p>
+              <br />
+              <div className="text-left">
+                <p>45 mins €45 &nbsp; 60 mins €55</p>
+                <br />
+              </div>
+            </div>
+          </div>
+          <div className="text-center my-4">
+            <button>
+              <Link style={{ color: "white" }} to="/contact">
+                Book Now
+              </Link>
+            </button>
+          </div>
         </div>
-      </div> */}
-      {/* <div className="col-sm-4">
-        <div className="service">
-          <h3 className="text-left mt-3">Relaxing Swedish Massage</h3>
-          <p>
-            Releases chronic muscle tension, focusing on the deepest layers of muscle tissue, tendons and fascia. A more targeted massage that reduces
-            blood pressure, stress hormone levels and heart rate.
-          </p>
-          <p>45 mins €45 &nbsp; 60 mins €55</p>
-        </div>
-      </div> */}
+      </div>
     </Layout>
   );
 }
