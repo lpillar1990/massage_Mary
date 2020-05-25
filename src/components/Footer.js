@@ -9,10 +9,9 @@ const Footer = () => (
       <div className="container footer_container">
         <div className="col-md-3 footer_item text-left">
           <h5>Mary Lynch Massage Therapist</h5>
-          <p className="mt-2">
-            111 XXX XXXXXX XX <br />
-            Belfast <br />
-            BT16 1XT
+          <p className="mt-3">
+            Location:
+            <br /> Burgau, Algarve, Portugal
           </p>
           <div className="contact_links mt-3">
             {/* <a href="tel:07938701165" className="pb-4">
@@ -20,7 +19,7 @@ const Footer = () => (
             <h6>Mary: 07938776701165</h6>
             {/* <a href="mailto:MaryLynchMassage@gmail.com" className="mt-5 pt-5">
             </a> */}
-            <h6>MaryLynchMassage@gmail.com</h6>
+            <h6>marylynchmassage@outlook.com</h6>
           </div>
         </div>
         <div className="col-md-6 footer_item">
@@ -68,7 +67,7 @@ const Footer = () => (
             </li>
           </ul>
           <Link to="/" className="logo">
-            <img src={logo} alt="logo" width="100px" />
+            <img src={logo} alt="logo" width="120px" />
           </Link>
         </div>
       </div>

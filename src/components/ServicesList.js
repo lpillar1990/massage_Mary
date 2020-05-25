@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Img from "gatsby-image";
 import { Link } from "gatsby";
 
-const ServicesList = ({ swedish, tissue, facial, foot }) => {
+const ServicesList = ({ swedish }) => {
   return (
     <Fragment>
       <div id="service" className="container">

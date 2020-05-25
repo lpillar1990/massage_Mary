@@ -2,9 +2,6 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
-import Banner from "../components/Banner";
-import Img from "gatsby-image";
-import banner from "../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg";
 
 class prices extends React.Component {
   render() {
@@ -20,7 +17,6 @@ class prices extends React.Component {
             },
           ]}
         ></Helmet>
-        <Banner img={banner} title="Mary Lynch Massage Therapist" />
         <div id="main">
           <h2 className="text-center my-4">Menu</h2>
           <div className="container my-5">
@@ -73,11 +69,10 @@ class prices extends React.Component {
                 <p>45 mins €35</p>
               </div>
             </div>
-            <br />
+
             <p className="text-center">
               All massages can be tailored to your needs from a targeted massage to a combination of any of the treatments.
             </p>
-            <br />
           </div>
           <div className="text-center my-5">
             <button>

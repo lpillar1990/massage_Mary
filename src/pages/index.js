@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
@@ -16,18 +16,18 @@ class HomeIndex extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy"
-            }
+              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+            },
           ]}
         ></Helmet>
 
         <Banner img={banner} title="Mary Lynch Massage Therapist" />
 
         <div id="main">
-          <div className="container my-5">
+          <div className="container my-1">
             <div className="row home_about">
-              <p className="mt-3">
-                Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos or Burgau.
+              <p className="mt-2">
+                Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos.
                 <br />
               </p>
               <p className="mt-3">
@@ -35,7 +35,7 @@ class HomeIndex extends React.Component {
                 a day in the sun, I will have a treatment that suits your needs.
                 <br />
                 <br />
-                The mobile service covers Lagos, Burgau and the surrounding areas.
+                The mobile service covers Lagos, Burgau, Sagres and surrounding area.
               </p>
             </div>
           </div>

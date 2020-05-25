@@ -4,8 +4,8 @@ import Img from "gatsby-image";
 const MeetTheTeam = ({ mary1, mary2 }) => {
   return (
     <Fragment>
-      <div id="team" className="mb-5">
-        <h2 className="my-5">About me</h2>
+      <div id="team" className="about_page">
+        <h2 className="my-1">About me</h2>
         <div className="row">
           <div className="container d-flex flex-wrap justify-content-between">
             <div className="col-sm-10 about">

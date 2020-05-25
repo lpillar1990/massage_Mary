@@ -1,7 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
-import BannerContact from "../components/BannerContact";
+import ContactForm from "../components/ContactForm";
+import banner from "../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg";
+import ContactBanner from "../components/ContactBanner";
 
 class Contact extends React.Component {
   render() {
@@ -13,12 +15,12 @@ class Contact extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy"
-            }
+              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+            },
           ]}
         ></Helmet>
-
-        <BannerContact />
+        <ContactBanner img={banner} title="Mary Lynch Massage Therapist" />
+        <ContactForm />
       </Layout>
     );
   }

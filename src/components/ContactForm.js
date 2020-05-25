@@ -4,26 +4,19 @@ import iceBackground from "../assets/images/rsz_zoltan-tasi-unsplash1.jpg";
 const BannerContact = () => (
   <section id="banner" className="major">
     <div className="inner">
-      <header className="my-5 pt-5"></header>
-      <div className="row mt-5">
+      <div className="row">
         <div className="container contact_section">
           <img src={iceBackground} alt="iceBackground" />
           <div className="contact_section_info">
             <div className="col-sm-6 text-left contact_section_left">
-              <h2>Belfast</h2>
-              {/* <a href="https://goo.gl/maps/YZqKE63QnMbEYT648" target="__blank"> */}
-              <p>
-                111 Old Belfast Rd <br />
-                Belfast <br />
-                BT16 1XT
-              </p>
-              {/* </a> */}
+              <h5>
+                Location:
+                <br /> Burgau, Algarve, Portugal
+              </h5>
+              <br />
               <div className="contact_links text-white mb-5">
-                <h4>
-                  Mary: 0759280052568
-                  {/* <a href="tel:0759285200568"></a> */}
-                </h4>
-                <h4>MaryLynchMassage@gmail.com</h4>
+                <h4>Mary: 0759280052568</h4>
+                <h4>marylynchmassage@outlook.com</h4>
               </div>
               <div className="container mb-5">
                 <p>*Working hours from 9am to 8pm*</p>

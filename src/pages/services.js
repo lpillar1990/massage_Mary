@@ -3,7 +3,6 @@ import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
-import Img from "gatsby-image";
 import ServicesList from "../components/ServicesList";
 import banner from "../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg";
 
@@ -17,8 +16,8 @@ class services extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy"
-            }
+              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+            },
           ]}
         ></Helmet>
         <Banner img={banner} title="Mary Lynch Massage Therapist" />

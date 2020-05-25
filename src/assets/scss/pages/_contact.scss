@@ -1,11 +1,13 @@
 .contact_section {
   position: relative;
-  margin-bottom: 50px;
+
   img {
-    min-height: 350px;
+    min-height: 500px;
     object-fit: cover;
     max-width: 100%;
-    opacity: 0.9;
+    opacity: 1;
+    padding-bottom: 30px;
+    margin-bottom: 85px;
     filter: brightness(50%);
   }
   h2,
@@ -16,11 +18,14 @@
   .contact_section_info {
     position: absolute;
     width: 92%;
-    top: 28px;
+    top: 5px;
     left: 36px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    h5 {
+      color: white;
+    }
   }
 
   .green {
@@ -34,8 +39,9 @@
       }
     }
     img {
-      height: 620px;
+      height: 931px;
       object-fit: cover;
+      padding-bottom: 40px;
     }
   }
 }
