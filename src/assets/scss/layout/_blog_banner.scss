@@ -7,8 +7,8 @@
 /* Banner */
 
 #blog_banner {
-  @include vendor('align-items', 'center');
-  @include vendor('display', 'flex');
+  @include vendor("align-items", "center");
+  @include vendor("display", "flex");
   @include padding(4em, 0, (2em, 0, 0, 0));
 
   position: relative;
@@ -27,9 +27,9 @@
   top: -3.25em;
 
   &:after {
-    @include vendor('transition', 'opacity #{_duration(banner)} ease');
-    @include vendor('transition-delay', '0.75s');
-    @include vendor('pointer-events', 'none');
+    @include vendor("transition", "opacity #{_duration(banner)} ease");
+    @include vendor("transition-delay", "0.75s");
+    @include vendor("pointer-events", "none");
     display: block;
     left: 0;
     opacity: 0.85;
@@ -50,15 +50,7 @@
     filter: brightness(70%);
   }
   > .inner {
-    @include vendor(
-      'transition',
-      (
-        'opacity 1.5s ease',
-        'transform 0.5s ease-out',
-        'filter 0.5s ease',
-        '-webkit-filter 0.5s ease'
-      )
-    );
+    @include vendor("transition", ("opacity 1.5s ease", "transform 0.5s ease-out", "filter 0.5s ease", "-webkit-filter 0.5s ease"));
 
     position: absolute;
     top: 50%;
@@ -85,8 +77,8 @@
     }
 
     .content {
-      @include vendor('display', 'flex');
-      @include vendor('align-items', 'center');
+      @include vendor("display", "flex");
+      @include vendor("align-items", "center");
       position: relative;
       margin: 0 auto;
       text-align: center;
@@ -103,8 +95,7 @@
   &.blog_major {
     text-align: center;
     overflow: hidden;
-    min-height: 30em;
-    max-height: 50em;
+    min-height: 100%;
 
     &.alt {
       opacity: 0.75;
@@ -117,7 +108,7 @@
     }
 
     > .inner {
-      @include vendor('filter', 'blur(0.125em)');
+      @include vendor("filter", "blur(0.125em)");
       //   @include vendor('transform', 'translateX(-0.5em)');
       opacity: 0;
     }
@@ -178,7 +169,7 @@
 
   @include breakpoint(xsmall) {
     @include padding(4em, 0, (2em, 0, 0, 0));
-    top: -8.75em;
+    top: -3.55em;
     > .inner {
       h1 {
         font-size: 1.8em;
@@ -193,7 +184,7 @@
     }
 
     &.blog_major {
-      @include padding(14em, 0, (2em, 0, 0, 0));
+      @include padding(8em, 0em, (-5em, 0, -5em, 0));
     }
   }
 }

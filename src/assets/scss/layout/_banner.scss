@@ -7,8 +7,8 @@
 /* Banner */
 
 #banner {
-  @include vendor('align-items', 'center');
-  @include vendor('display', 'flex');
+  @include vendor("align-items", "center");
+  @include vendor("display", "flex");
   @include padding(4em, 0, (2em, 0, 0, 0));
   background: #b5dddd;
   background-attachment: fixed;
@@ -25,9 +25,9 @@
   top: -3.25em;
 
   &:after {
-    @include vendor('transition', 'opacity #{_duration(banner)} ease');
-    @include vendor('transition-delay', '0.75s');
-    @include vendor('pointer-events', 'none');
+    @include vendor("transition", "opacity #{_duration(banner)} ease");
+    @include vendor("transition-delay", "0.75s");
+    @include vendor("pointer-events", "none");
     background-color: _palette(bg);
     display: block;
     left: 0;
@@ -44,15 +44,7 @@
   }
 
   > .inner {
-    @include vendor(
-      'transition',
-      (
-        'opacity 1.5s ease',
-        'transform 0.5s ease-out',
-        'filter 0.5s ease',
-        '-webkit-filter 0.5s ease'
-      )
-    );
+    @include vendor("transition", ("opacity 1.5s ease", "transform 0.5s ease-out", "filter 0.5s ease", "-webkit-filter 0.5s ease"));
     padding: 0 !important;
     margin: 0 auto;
     z-index: 2;
@@ -74,8 +66,8 @@
     }
 
     .content {
-      @include vendor('display', 'flex');
-      @include vendor('align-items', 'center');
+      @include vendor("display", "flex");
+      @include vendor("align-items", "center");
       margin: 0 auto;
       text-align: center;
       color: _palette(fg);
@@ -136,7 +128,7 @@
     }
 
     > .inner {
-      @include vendor('filter', 'blur(0.125em)');
+      @include vendor("filter", "blur(0.125em)");
       //   @include vendor('transform', 'translateX(-0.5em)');
       opacity: 0;
     }
