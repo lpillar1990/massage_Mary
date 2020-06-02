@@ -7,7 +7,7 @@ const BannerContact = () => (
       <div className="row">
         <div className="container contact_section">
           <img src={iceBackground} alt="iceBackground" />
-          <div className="contact_section_info">
+          <div className="contact_section_info pt-5">
             <div className="col-sm-6 text-left contact_section_left">
               <h5>
                 Location:
