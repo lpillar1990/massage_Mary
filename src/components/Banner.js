@@ -7,7 +7,7 @@ const Banner = ({ img, title }) => (
 
     <div className="inner">
       <header>
-        <h1>{title}</h1>
+        {/* <h1>{title}</h1> */}
 
         <div className="banner_button my-4">
           <button>

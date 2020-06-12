@@ -2,7 +2,6 @@
   position: relative;
 
   img {
-    min-height: 500px;
     object-fit: cover;
     max-width: 100%;
     opacity: 1;
@@ -12,6 +11,7 @@
   }
   h2,
   h3,
+  h4,
   p {
     color: _palette(white) !important;
   }

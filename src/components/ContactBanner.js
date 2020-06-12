@@ -6,9 +6,7 @@ const ContactBanner = ({ img, title }) => (
     <img src={img} alt="" />
 
     <div className="inner">
-      <header>
-        <h1>{title}</h1>
-      </header>
+      <header>{/* <h1>{title}</h1> */}</header>
     </div>
   </section>
 );

@@ -29,9 +29,12 @@
     }
   }
   h5,
+  h6,
   p {
     margin-bottom: 0;
+    color: white;
   }
+
   h5 {
     font-size: 1em !important;
   }
@@ -89,7 +92,7 @@
   @include breakpoint(small) {
     .logo {
       padding: 0 1em;
-      width: 25%;
+      width: 30%;
       img {
         max-height: 80px;
       }

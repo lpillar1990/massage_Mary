@@ -1,5 +1,6 @@
 import React from "react";
 import iceBackground from "../assets/images/rsz_zoltan-tasi-unsplash1.jpg";
+import whatsapp from "../assets/images/whatsapp2.png";
 
 const BannerContact = () => (
   <section id="banner" className="major">
@@ -15,12 +16,17 @@ const BannerContact = () => (
               </h5>
               <br />
               <div className="contact_links text-white mb-5">
-                <h4>Mary: 0759280052568</h4>
-                <h4>marylynchmassage@outlook.com</h4>
+                <a href="tel:0044 7412 519150">
+                  <h4>Mary: 0044 7412 519150</h4>
+                </a>
+                <a href="mailto:marylynchmassage@outlook.com" className="mt-5 pt-5">
+                  {" "}
+                  <h4>marylynchmassage@outlook.com</h4>
+                </a>
               </div>
               <div className="container mb-5">
                 <p>*Working hours from 9am to 8pm*</p>
-                <br />
+
                 <p>Can travel further for larger groups.</p>
               </div>
             </div>

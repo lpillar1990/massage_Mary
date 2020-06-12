@@ -41,6 +41,10 @@ const AboutMe = ({ massage, relax, therapy }) => {
           <Link to="/about">More about my journey</Link>
         </button>
       </div>
+      <div className="text-center">
+        <br />
+        <p>*Please note only professional treatments for health and well-being are provided by this service*</p>
+      </div>
     </Fragment>
   );
 };

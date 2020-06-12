@@ -27,7 +27,7 @@ class HomeIndex extends React.Component {
           <div className="container my-1">
             <div className="row home_about">
               <p className="mt-2">
-                Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos.
+                Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos or Praia da Luz.
                 <br />
               </p>
               <p className="mt-3">
@@ -36,6 +36,11 @@ class HomeIndex extends React.Component {
                 <br />
                 <br />
                 The mobile service covers Lagos, Burgau, Sagres and surrounding area.
+                <br />
+                <br />
+                Treatments offered:&nbsp;
+                <a href="/deeptissuemassage">Deep Tissue Massage</a>,&nbsp;<a href="/swedish">Swedish Massage</a>,&nbsp;{" "}
+                <a href="/facialmassage">Ayurvedic Face</a> and <a href="/footmassage">Ayurvedic Foot Massage</a>.
               </p>
             </div>
           </div>

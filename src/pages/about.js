@@ -15,12 +15,10 @@ class AboutUs extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy"
-            }
+              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+            },
           ]}
         ></Helmet>
-
-        <Banner img={banner} title="Mary Lynch Massage Therapist" />
 
         <div id="main">
           <div className="row home_about">

@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
-import logo from "../assets/images/logo2.jpg";
+import logo from "../assets/images/logo_new.png";
 import { Link } from "gatsby";
 
 function Menubar() {
@@ -8,7 +8,7 @@ function Menubar() {
     <Navbar bg="light sticky-top" expand="lg">
       <Navbar.Brand href="/">
         <Link to="/" className="logo">
-          <img src={logo} width="160px" />
+          <img src={logo} width="130px" />
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
