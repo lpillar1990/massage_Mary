@@ -22,7 +22,7 @@ const Footer = () => (
               {" "}
               <h6>marylynchmassage@outlook.com</h6>
             </a>
-            <a href="https://wa.me/00447412519150" target="__blank">
+            <a href="https://wa.me/447412519150" target="__blank">
               <img src={whatsapp} alt="whatsapp" />
             </a>
           </div>
@@ -63,7 +63,7 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a href="https://wa.me/00447412519150" target="__blank" className="icon fa-whatsapp">
+              <a href="https://wa.me/447412519150" target="__blank" className="icon fa-whatsapp">
                 <span className="label">Whatsapp</span>
               </a>
             </li>
