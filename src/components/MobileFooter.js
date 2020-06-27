@@ -11,17 +11,17 @@ const MobileFooter = () => (
           <h4>Follow us</h4>
           <ul className="container icons mt-2">
             <li>
-              <a href="https://www.facebook.com/MassageAlgarveWest/" target="__blank" className="icon fa-facebook">
+              <a href="https://www.facebook.com/MassageAlgarveWest/" target="__blank" className="icon fa-facebook fa-2x">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/m.lynch.massage/?hl=en" target="__blank" className="icon fa-instagram">
+              <a href="https://www.instagram.com/m.lynch.massage/?hl=en" target="__blank" className="icon fa-instagram fa-2x">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="https://wa.me/447412519150" target="__blank" className="icon fa-whatsapp">
+              <a href="https://wa.me/447412519150" target="__blank" className="icon fa-whatsapp fa-2x">
                 <span className="label">Whatsapp</span>
               </a>
             </li>
