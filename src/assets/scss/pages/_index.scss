@@ -1,5 +1,18 @@
+.home_background {
+  background-color: rgb(27, 147, 139);
+  padding-top: 5px;
+  @include breakpoint(small) {
+    padding-top: 10px;
+  }
+}
 .home_about {
   padding: 0px 0;
+  width: 100%;
+  color: white;
+
+  a {
+    color: rgb(3, 95, 15);
+  }
   p {
     font-size: 18px;
     text-align: center;
@@ -8,6 +21,7 @@
   img {
     max-width: 100%;
   }
+
   @include breakpoint(small) {
     padding: 0px 30px;
   }
@@ -16,5 +30,29 @@
 .service {
   p {
     color: black;
+  }
+}
+
+.services__container,
+.blog__container {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include breakpoint(small) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+.contact_button {
+  position: fixed;
+  right: 10px;
+  bottom: 508px;
+  z-index: 999;
+  background-color: rgb(12, 146, 137);
+
+  @include breakpoint(small) {
+    bottom: 590px;
+    margin-right: 5px;
   }
 }

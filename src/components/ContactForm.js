@@ -1,6 +1,5 @@
 import React from "react";
 import iceBackground from "../assets/images/rsz_zoltan-tasi-unsplash1.jpg";
-import whatsapp from "../assets/images/whatsapp2.png";
 
 const BannerContact = () => (
   <section id="banner" className="major">
@@ -12,7 +11,7 @@ const BannerContact = () => (
             <div className="col-sm-6 text-left contact_section_left">
               <h5>
                 Location:
-                <br /> Burgau, Algarve, Portugal
+                <br /> Burgau, Lagos, Algarve, Portugal
               </h5>
               <br />
               <div className="contact_links text-white mb-5">
@@ -31,7 +30,7 @@ const BannerContact = () => (
               </div>
             </div>
             <div className="col-sm-6 text-right contact_section_right ">
-              <form className="form" name="contact" method="post" data-netlify="true" data-netify-honeypot="bot-field">
+              <form className="form" name="contact" method="post" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group mb-2 text-left">
                   <label htmlFor="">Bookings / Enquiries</label>

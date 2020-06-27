@@ -11,7 +11,7 @@ const Footer = () => (
           <h5>Mary Lynch Massage Therapist</h5>
           <p className="mt-3">
             Location:
-            <br /> Burgau, Algarve, Portugal
+            <br /> Burgau, Lagos, Algarve, Portugal
           </p>
           <div className="contact_links mt-3">
             <a href="tel:0044 7412 519150" className="pb-4">

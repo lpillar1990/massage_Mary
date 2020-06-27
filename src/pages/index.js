@@ -1,10 +1,10 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import AboutMe from "../components/AboutMe";
-import banner from "../assets/images/sean-o-KMn4VEeEPR8-unsplash.jpg";
+import banner from "../assets/images/home_banner.jpg";
 
 class HomeIndex extends React.Component {
   render() {
@@ -24,25 +24,48 @@ class HomeIndex extends React.Component {
         <Banner img={banner} title="Mary Lynch Massage Therapist" />
 
         <div id="main">
-          <div className="container my-1">
-            <div className="row home_about">
-              <p className="mt-2">
-                Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos or Praia da Luz.
-                <br />
-              </p>
-              <p className="mt-3">
-                Whether your body needs attention after a day of walking, surfing or yoga or you want to relax and rejuvenate your face and body after
-                a day in the sun, I will have a treatment that suits your needs.
-                <br />
-                <br />
-                The mobile service covers Lagos, Burgau, Sagres and surrounding area.
-                <br />
-                <br />
-                Treatments offered:&nbsp;
-                <a href="/deeptissuemassage">Deep Tissue Massage</a>,&nbsp;<a href="/swedish">Swedish Massage</a>,&nbsp;{" "}
-                <a href="/facialmassage">Ayurvedic Face</a> and <a href="/footmassage">Ayurvedic Foot Massage</a>.
-              </p>
+          <section className="home_background">
+            <div className="container my-1">
+              <div className="row home_about">
+                <p className="mt-2">
+                  Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos or Praia da Luz.
+                  <br />
+                </p>
+                <p className="mt-3">
+                  Whether your body needs attention after a day of walking, surfing or yoga or you want to relax and rejuvenate your face and body
+                  after a day in the sun, I will have a treatment that suits your needs.
+                  <br />
+                  <br />
+                  The mobile service covers Lagos, Burgau, Sagres and surrounding area.
+                  <br />
+                  <br />
+                  Treatments offered:&nbsp;
+                  <a href="/deeptissuemassage">
+                    <u>Deep Tissue Massage</u>
+                  </a>
+                  ,&nbsp;
+                  <a href="/swedish">
+                    <u>Swedish Massage</u>
+                  </a>
+                  ,&nbsp;{" "}
+                  <a href="/facialmassage">
+                    <u>Ayurvedic Face</u>
+                  </a>{" "}
+                  and{" "}
+                  <a href="/footmassage">
+                    <u>Ayurvedic Foot Massage</u>
+                  </a>
+                  .
+                </p>
+              </div>
             </div>
+          </section>
+
+          <div className="contact_button">
+            {" "}
+            <button>
+              <Link to="/contact">Contact Now</Link>
+            </button>
           </div>
         </div>
         <div className="my-5">
@@ -80,7 +103,7 @@ export const indexImage = graphql`
 `;
 export const query = graphql`
   query {
-    image1: file(relativePath: { eq: "sean-o-KMn4VEeEPR8-unsplash.jpg" }) {
+    image1: file(relativePath: { eq: "home_banner.jpg" }) {
       ...indexImage
     }
     serviceImage1: file(relativePath: { eq: "julia-solonina-unsplash.jpg" }) {

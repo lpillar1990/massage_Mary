@@ -6,12 +6,14 @@
 
 /* Footer */
 
-#footer {
+#mobile_footer {
   background-color: #048b82ec;
   color: white;
   padding: 90px 10px 0;
+  display: none;
+  text-align: center;
   @include breakpoint(small) {
-    display: none;
+    display: block;
   }
   .logo {
     border: 0;

@@ -25,7 +25,7 @@ function Menubar() {
             <NavDropdown.Item href="/prices">Full Menu</NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link href="/contact">Contact Us</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
