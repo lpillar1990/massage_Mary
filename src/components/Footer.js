@@ -23,7 +23,7 @@ const Footer = () => (
               <h6>marylynchmassage@outlook.com</h6>
             </a>
             <a href="https://wa.me/447412519150" target="__blank">
-              <img src={whatsapp} alt="whatsapp" />
+              <img src={whatsapp} alt="whatsapp" width="200px" />
             </a>
           </div>
         </div>
