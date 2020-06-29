@@ -43,7 +43,7 @@ const AboutMe = ({ massage, relax, therapy }) => {
       </div>
       <div className="text-center">
         <br />
-        <p>*Please note only professional treatments for health and well-being are provided by this service*</p>
+        <p>*Please note only professional treatments for health and well-being are provided by this service.</p>
       </div>
     </Fragment>
   );

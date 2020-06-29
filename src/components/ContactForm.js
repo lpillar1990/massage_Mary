@@ -15,8 +15,8 @@ const BannerContact = () => (
               </h5>
               <br />
               <div className="contact_links text-white mb-5">
-                <a href="tel:0044 7412 519150">
-                  <h4>Mary: 0044 7412 519150</h4>
+                <a href="tel:+351 911 096 630 ">
+                  <h4>+351 911 096 630 </h4>
                 </a>
                 <a href="mailto:marylynchmassage@outlook.com" className="mt-5 pt-5">
                   {" "}

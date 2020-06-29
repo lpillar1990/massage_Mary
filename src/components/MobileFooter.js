@@ -8,7 +8,6 @@ const MobileFooter = () => (
     <div className="row inner pb-5">
       <div className="container mobile_footer">
         <div className="col-md-3 footer_item">
-          <h4>Follow us</h4>
           <ul className="container icons mt-2">
             <li>
               <a href="https://www.facebook.com/MassageAlgarveWest/" target="__blank" className="icon fa-facebook fa-2x">
@@ -31,9 +30,9 @@ const MobileFooter = () => (
           </Link>
           <br />
           <br />
-          <a href="tel:0044 7412 519150" className="pb-4">
+          <a href="tel:+351 911 096 630" className="pb-4">
             <h4>Contact</h4>
-            <h6>Mary: 0044 7412 519150</h6>
+            <h6>Mary: +351 911 096 630 </h6>
           </a>
           <a href="mailto:marylynchmassage@outlook.com" className="mt-5 pt-5">
             {" "}

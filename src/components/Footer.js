@@ -14,15 +14,15 @@ const Footer = () => (
             <br /> Burgau, Lagos, Algarve, Portugal
           </p>
           <div className="contact_links mt-3">
-            <a href="tel:0044 7412 519150" className="pb-4">
-              <h6>Mary: 0044 7412 519150</h6>
+            <a href="tel:+351 911 096 630 " className="pb-4">
+              <h6>+351 911 096 630 </h6>
             </a>
             <br />
             <a href="mailto:marylynchmassage@outlook.com" className="mt-5 pt-5">
               {" "}
               <h6>marylynchmassage@outlook.com</h6>
             </a>
-            <a href="https://wa.me/447412519150" target="__blank">
+            <a href="https://wa.me/+351 911 096 630 " target="__blank">
               <img src={whatsapp} alt="whatsapp" width="200px" />
             </a>
           </div>
@@ -50,7 +50,6 @@ const Footer = () => (
           </ul> */}
         </div>
         <div className="col-md-3 footer_item ">
-          <h5>Follow us</h5>
           <ul className="container icons mt-2">
             <li>
               <a href="https://www.facebook.com/MassageAlgarveWest/" target="__blank" className="icon fa-facebook fa-2x">
