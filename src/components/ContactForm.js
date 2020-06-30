@@ -48,8 +48,9 @@ const BannerContact = () => (
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group mb-2 text-left">
-                  <label htmlFor="">Bookings / Enquiries</label>
+                  <label htmlFor="bookings">Bookings / Enquiries</label>
                   <input
+                    id="bookings"
                     type="text"
                     className="form-control"
                     placeholder="Name"
