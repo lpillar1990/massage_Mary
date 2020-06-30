@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import whatsapp from "../assets/images/whatsapp2.png";
 import logo from "../assets/images/logo1_new.png";
 
 const MobileFooter = () => (

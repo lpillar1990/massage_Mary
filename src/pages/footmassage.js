@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
-import treatment from "../assets/images/christin-hume-unsplash.jpg";
+import treatment from "../assets/images/foot.jpg";
 function footmassage() {
   return (
     <Layout>

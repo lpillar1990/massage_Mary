@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import { Link } from "gatsby";
-import treatment from "../assets/images/christin-hume-unsplash.jpg";
+import treatment from "../assets/images/noah-buscher-unsplash.jpg";
 function facialmassage() {
   return (
     <Layout>
