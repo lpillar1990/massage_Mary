@@ -24,43 +24,50 @@ class HomeIndex extends React.Component {
         <Banner img={banner} title="Mary Lynch Massage Therapist" />
 
         <div id="main">
-          <section className="home_background">
+          <section className="mx-auto text-center py-5">
+            <p className="mt-2">
+              Providing a professional massage service to you in your home or
+              holiday accommodation or at a studio in Lagos or Praia da Luz.
+              <br />
+            </p>
+          </section>
+          <section className="home_background py-5">
             <div className="container my-1">
               <div className="row home_about">
-                <p className="mt-2">
-                  Providing a professional massage service to you in your home or holiday accommodation or at a studio in Lagos or Praia da Luz.
-                  <br />
-                </p>
-                <p className="mt-3">
-                  Whether your body needs attention after a day of walking, surfing or yoga or you want to relax and rejuvenate your face and body
-                  after a day in the sun, I will have a treatment that suits your needs.
+                <p className="">
+                  Whether your body needs attention after a day of walking,
+                  surfing or yoga or you want to relax and rejuvenate your face
+                  and body after a day in the sun, I will have a treatment that
+                  suits your needs.
                   <br />
                   <br />
-                  The mobile service covers Lagos, Burgau, Sagres and surrounding area.
+                  The mobile service covers Lagos, Burgau, Sagres and
+                  surrounding area.
                   <br />
                   <br />
-                  Treatments offered:&nbsp;
-                  <a href="/deeptissuemassage">
-                    <u>Deep Tissue Massage</u>
-                  </a>
-                  ,&nbsp;
-                  <a href="/swedish">
-                    <u>Swedish Massage</u>
-                  </a>
-                  ,&nbsp;{" "}
-                  <a href="/facialmassage">
-                    <u>Ayurvedic Face</u>
-                  </a>{" "}
-                  and{" "}
-                  <a href="/footmassage">
-                    <u>Ayurvedic Foot Massage</u>
-                  </a>
-                  .
                 </p>
               </div>
             </div>
           </section>
-
+          <section className="mx-auto text-center py-5">
+            Treatments offered:&nbsp;
+            <a href="/deeptissuemassage">
+              <u>Deep Tissue Massage</u>
+            </a>
+            ,&nbsp;
+            <a href="/swedish">
+              <u>Swedish Massage</u>
+            </a>
+            ,&nbsp;{" "}
+            <a href="/facialmassage">
+              <u>Ayurvedic Face</u>
+            </a>{" "}
+            and{" "}
+            <a href="/footmassage">
+              <u>Ayurvedic Foot Massage</u>
+            </a>
+            .
+          </section>
           <div className="contact_button">
             {" "}
             <button>

@@ -10,17 +10,29 @@ const MobileFooter = () => (
         <div className="col-md-3 footer_item">
           <ul className="container icons mt-2">
             <li>
-              <a href="https://www.facebook.com/MassageAlgarveWest/" target="__blank" className="icon fa-facebook fa-2x">
+              <a
+                href="https://www.facebook.com/MassageAlgarveWest/"
+                target="__blank"
+                className="icon fa-facebook fa-2x"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/m.lynch.massage/?hl=en" target="__blank" className="icon fa-instagram fa-2x">
+              <a
+                href="https://www.instagram.com/m.lynch.massage/?hl=en"
+                target="__blank"
+                className="icon fa-instagram fa-2x"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="https://wa.me/447412519150" target="__blank" className="icon fa-whatsapp fa-2x">
+              <a
+                href="https://wa.me/00351911096630"
+                target="__blank"
+                className="icon fa-whatsapp fa-2x"
+              >
                 <span className="label">Whatsapp</span>
               </a>
             </li>
@@ -37,9 +49,6 @@ const MobileFooter = () => (
           <a href="mailto:marylynchmassage@outlook.com" className="mt-5 pt-5">
             {" "}
             <h6>marylynchmassage@outlook.com</h6>
-          </a>
-          <a href="https://wa.me/447412519150" target="__blank">
-            <img src={whatsapp} alt="whatsapp" width="200px" />
           </a>
           <br />
           <br />

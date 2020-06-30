@@ -21,14 +21,17 @@ function swedish() {
         <div className="container p-5">
           <div className="row justify-content-center">
             <div className="col">
-              <img src={treatment} />
+              <img src={treatment} alt="treatment" />
             </div>
             <div className="col-sm-8">
               <h2>Relaxing Swedish Massage</h2>
               <br />
               <p>
-                Relax the entire body, this treatment promotes harmony and balance in the whole body using soft, kneading strokes, focusing on the top
-                layer of the muscle. A detoxifying massage that improves circulation and flexibility while easing stress and tension.
+                Relax the entire body, this treatment promotes harmony and
+                balance in the whole body using soft, kneading strokes, focusing
+                on the top layer of the muscle. A detoxifying massage that
+                improves circulation and flexibility while easing stress and
+                tension.
               </p>
               <br />
               <div className="text-left">

@@ -6,7 +6,6 @@ const ServicesList = ({ swedish }) => {
   return (
     <Fragment>
       <div id="service" className="container">
-        <h2 className="black my-5 text-center"></h2>
         <div className="row">
           <div className="col-sm-3">
             <div className="service">
@@ -20,8 +19,10 @@ const ServicesList = ({ swedish }) => {
             <div className="service">
               <h3 className="text-left mt-3">Relaxing Swedish Massage</h3>
               <p>
-                Releases chronic muscle tension, focusing on the deepest layers of muscle tissue, tendons and fascia. A more targeted massage that
-                reduces blood pressure, stress hormone levels and heart rate.
+                Releases chronic muscle tension, focusing on the deepest layers
+                of muscle tissue, tendons and fascia. A more targeted massage
+                that reduces blood pressure, stress hormone levels and heart
+                rate.
               </p>
               <p>45 mins €45 &nbsp; 60 mins €55</p>
             </div>

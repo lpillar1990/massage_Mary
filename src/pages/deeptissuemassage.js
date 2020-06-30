@@ -22,14 +22,16 @@ function deeptissuemassage() {
         <div className="container p-5">
           <div className="row justify-content-center">
             <div className="col">
-              <img src={treatment} />
+              <img src={treatment} alt="treatment" />
             </div>
             <div className="col-sm-8">
               <h2>Deep Tissue Massage</h2>
               <br />
               <p>
-                Releases chronic muscle tension, focusing on the deepest layers of muscle tissue, tendons and fascia. A more targeted massage that
-                reduces blood pressure, stress hormone levels and heart rate.
+                Releases chronic muscle tension, focusing on the deepest layers
+                of muscle tissue, tendons and fascia. A more targeted massage
+                that reduces blood pressure, stress hormone levels and heart
+                rate.
               </p>
               <br />
               <div className="text-left">

@@ -1,12 +1,17 @@
 import React from "react";
 import iceBackground from "../assets/images/rsz_zoltan-tasi-unsplash1.jpg";
+import whatsapp from "../assets/images/whatsapp2.png";
 
 const BannerContact = () => (
   <section id="banner" className="major">
     <div className="inner">
       <div className="row">
         <div className="container contact_section">
-          <img src={iceBackground} alt="iceBackground" />
+          <img
+            className="contact_form_background"
+            src={iceBackground}
+            alt="iceBackground"
+          />
           <div className="contact_section_info pt-5">
             <div className="col-sm-6 text-left contact_section_left">
               <h5>
@@ -18,9 +23,14 @@ const BannerContact = () => (
                 <a href="tel:+351 911 096 630 ">
                   <h4>+351 911 096 630 </h4>
                 </a>
-                <a href="mailto:marylynchmassage@outlook.com" className="mt-5 pt-5">
+                <a
+                  href="mailto:marylynchmassage@outlook.com"
+                  className="mt-5 pt-5"
+                >
                   {" "}
-                  <h4>marylynchmassage@outlook.com</h4>
+                  <h6 style={{ color: "white" }}>
+                    marylynchmassage@outlook.com
+                  </h6>
                 </a>
               </div>
               <div className="container mb-5">
@@ -30,20 +40,45 @@ const BannerContact = () => (
               </div>
             </div>
             <div className="col-sm-6 text-right contact_section_right ">
-              <form className="form" name="contact" method="post" data-netlify="true">
+              <form
+                className="form"
+                name="contact"
+                method="post"
+                data-netlify="true"
+              >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group mb-2 text-left">
                   <label htmlFor="">Bookings / Enquiries</label>
-                  <input type="text" className="form-control" placeholder="Name" name="name" />
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Name"
+                    name="name"
+                  />
                 </div>
                 <div className="form-group mb-2">
-                  <input type="email" className="form-control" placeholder="Email" name="email" />
+                  <input
+                    type="email"
+                    className="form-control"
+                    placeholder="Email"
+                    name="email"
+                  />
                 </div>
                 <div className="form-group mb-2">
-                  <textarea className="mt-3" placeholder="Message" name="message" />
+                  <textarea
+                    className="mt-3"
+                    placeholder="Message"
+                    name="message"
+                  />
                   <button type="submit" className="mt-3">
                     Send
                   </button>
+                  <br />
+                  <div className="mx-auto text-center">
+                    <a href="https://wa.me/00351911096630" target="__blank">
+                      <img src={whatsapp} alt="whatsapp" width="200px" />
+                    </a>
+                  </div>
                 </div>
               </form>
             </div>

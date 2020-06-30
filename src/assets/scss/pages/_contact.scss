@@ -1,7 +1,7 @@
 .contact_section {
   position: relative;
 
-  img {
+  .contact_form_background {
     object-fit: cover;
     max-width: 100%;
     opacity: 1;
@@ -41,7 +41,7 @@
         font-size: 1.4rem;
       }
     }
-    img {
+    .contact_form_background {
       height: 800px;
       object-fit: cover;
       padding-bottom: 0px;

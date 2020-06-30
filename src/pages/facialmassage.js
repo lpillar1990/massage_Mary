@@ -20,14 +20,16 @@ function facialmassage() {
         <div className="container p-5">
           <div className="row justify-content-center">
             <div className="col">
-              <img src={treatment} />
+              <img src={treatment} alt="treatment" />
             </div>
             <div className="col-sm-8">
               <h2>Ayurvedic Face Massage</h2>
               <br />
               <p>
-                Known as the natural facelift, this ancient Indian therapy uses fragrant oils, applying pressure along specific energy points to relax
-                muscles, release toxins and improve circulation and skin tone, making you look and feel younger.
+                Known as the natural facelift, this ancient Indian therapy uses
+                fragrant oils, applying pressure along specific energy points to
+                relax muscles, release toxins and improve circulation and skin
+                tone, making you look and feel younger.
               </p>
               <br />
               <div className=" text-left">

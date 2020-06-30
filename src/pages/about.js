@@ -2,9 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
-import Banner from "../components/Banner";
 import MeetTheTeam from "../components/MeetTheTeam";
-import banner from "../assets/images/valentino-funghi-unsplash.jpg";
 class AboutUs extends React.Component {
   render() {
     return (
@@ -25,7 +23,9 @@ class AboutUs extends React.Component {
             <div className="container mobile"></div>
           </div>
 
-          <MeetTheTeam mary1={this.props.data.anastasia.childImageSharp.fluid} />
+          <MeetTheTeam
+            mary1={this.props.data.anastasia.childImageSharp.fluid}
+          />
         </div>
       </Layout>
     );
