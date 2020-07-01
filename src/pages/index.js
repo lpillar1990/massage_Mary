@@ -25,11 +25,19 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section className="mx-auto text-center py-5">
-            <p className="mt-2">
-              Providing a professional massage service to you in your home or
-              holiday accommodation or at a studio in Lagos or Praia da Luz.
-              <br />
-            </p>
+            <div className="container my-1">
+              <div className="row home_about_white">
+                <p className="mt-2">
+                  Providing a professional massage service to you in your home
+                  or holiday accommodation or at a studio in Lagos or Praia da
+                  Luz.
+                  <br />
+                  <br />
+                  The mobile service covers Lagos, Burgau, Sagres and
+                  surrounding area.
+                </p>
+              </div>
+            </div>
           </section>
           <section className="home_background py-5">
             <div className="container my-1">
@@ -39,12 +47,6 @@ class HomeIndex extends React.Component {
                   surfing or yoga or you want to relax and rejuvenate your face
                   and body after a day in the sun, I will have a treatment that
                   suits your needs.
-                  <br />
-                  <br />
-                  The mobile service covers Lagos, Burgau, Sagres and
-                  surrounding area.
-                  <br />
-                  <br />
                 </p>
               </div>
             </div>
@@ -113,10 +115,10 @@ export const query = graphql`
     image1: file(relativePath: { eq: "home_banner.jpg" }) {
       ...indexImage
     }
-    serviceImage1: file(relativePath: { eq: "julia-solonina-unsplash.jpg" }) {
+    serviceImage1: file(relativePath: { eq: "yogaPose.jpg" }) {
       ...serviceImage
     }
-    serviceImage2: file(relativePath: { eq: "christin-hume-unsplash.jpg" }) {
+    serviceImage2: file(relativePath: { eq: "sunsetSurf.jpg" }) {
       ...serviceImage
     }
     serviceImage3: file(relativePath: { eq: "saffu-unsplash.jpg" }) {
