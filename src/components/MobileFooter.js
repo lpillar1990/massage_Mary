@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../assets/images/logo1_new.png";
+import facebook from "../assets/images/facebook.png";
+import insta from "../assets/images/insta.png";
+import whatsapp from "../assets/images/whatsappp.png";
 
 const MobileFooter = () => (
   <footer id="mobile_footer">
@@ -12,27 +15,21 @@ const MobileFooter = () => (
               <a
                 href="https://www.facebook.com/MassageAlgarveWest/"
                 target="__blank"
-                className="icon fa-facebook fa-2x"
               >
-                <span className="label">Facebook</span>
+                <img src={facebook} alt="" />
               </a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com/m.lynch.massage/?hl=en"
                 target="__blank"
-                className="icon fa-instagram fa-2x"
               >
-                <span className="label">Instagram</span>
+                <img src={insta} alt="Instagram" />
               </a>
             </li>
             <li>
-              <a
-                href="https://wa.me/00351911096630"
-                target="__blank"
-                className="icon fa-whatsapp fa-2x"
-              >
-                <span className="label">Whatsapp</span>
+              <a href="https://wa.me/00351911096630" target="__blank">
+                <img src={whatsapp} alt="" />
               </a>
             </li>
           </ul>
