@@ -17,14 +17,16 @@ const AboutMe = ({ massage, relax, therapy }) => {
 
             <div className="col-sm-4">
               <div className="AboutMe">
-                <Img fluid={relax} loading="lazy" />
+                <Img fluid={relax} loading="lazy" className="mobile" />
 
                 <h3 className="text-center black mt-3">Little bit about me</h3>
                 <br />
                 <p>
-                  I have moved from my home in Ireland to the beautiful and sunny Algarve, where I am able to live out my passion, working as an
-                  alternative therapist, helping to heal and revitalize, while spending my spare time practicing yoga, swimming in the sea & being at
-                  one with nature.
+                  I have moved from my home in Ireland to the beautiful and
+                  sunny Algarve, where I am able to live out my passion, working
+                  as an alternative therapist, helping to heal and revitalize,
+                  while spending my spare time practicing yoga, swimming in the
+                  sea & being at one with nature.
                 </p>
               </div>
             </div>
@@ -43,7 +45,10 @@ const AboutMe = ({ massage, relax, therapy }) => {
       </div>
       <div className="text-center">
         <br />
-        <p>*Please note only professional treatments for health and well-being are provided by this service.</p>
+        <p>
+          *Please note only professional treatments for health and well-being
+          are provided by this service.
+        </p>
       </div>
     </Fragment>
   );
