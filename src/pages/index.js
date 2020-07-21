@@ -75,7 +75,7 @@ class HomeIndex extends React.Component {
           <div className="contact_button">
             {" "}
             <button>
-              <Link to="/contact">Contact Now</Link>
+              <Link to="/contact">Contact</Link>
             </button>
           </div>
         </div>
