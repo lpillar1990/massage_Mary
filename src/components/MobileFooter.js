@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import logo from "../assets/images/logo1_new.png";
 import facebook from "../assets/images/facebook.png";
 import insta from "../assets/images/insta.png";
+import messenger from "../assets/images/messenger.png";
 import whatsapp from "../assets/images/whatsappp.png";
 
 const MobileFooter = () => (
@@ -30,6 +31,11 @@ const MobileFooter = () => (
             <li>
               <a href="https://wa.me/00351911096630" target="__blank">
                 <img src={whatsapp} alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="http://m.me/MassageAlgarveWest" target="_blank">
+                <img src={messenger} alt="" />
               </a>
             </li>
           </ul>

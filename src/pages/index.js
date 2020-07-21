@@ -52,23 +52,25 @@ class HomeIndex extends React.Component {
             </div>
           </section>
           <section className="mx-auto text-center py-5">
-            Treatments offered:&nbsp;
-            <a href="/deeptissuemassage">
-              <u>Deep Tissue Massage</u>
-            </a>
-            ,&nbsp;
-            <a href="/swedish">
-              <u>Swedish Massage</u>
-            </a>
-            ,&nbsp;{" "}
-            <a href="/facialmassage">
-              <u>Ayurvedic Face</u>
-            </a>{" "}
-            and{" "}
-            <a href="/footmassage">
-              <u>Ayurvedic Foot Massage</u>
-            </a>
-            .
+            <div className="container">
+              Treatments offered:&nbsp;
+              <a href="/deeptissuemassage">
+                <u>Deep Tissue Massage</u>
+              </a>
+              ,&nbsp;
+              <a href="/swedish">
+                <u>Swedish Massage</u>
+              </a>
+              ,&nbsp;{" "}
+              <a href="/facialmassage">
+                <u>Ayurvedic Face</u>
+              </a>{" "}
+              and{" "}
+              <a href="/footmassage">
+                <u>Ayurvedic Foot Massage</u>
+              </a>
+              .
+            </div>
           </section>
           <div className="contact_button">
             {" "}

@@ -23,7 +23,8 @@ class prices extends React.Component {
             <div className="row my-4 prices">
               <div className="col-sm-8">
                 <p>
-                  <h4>Swedish Massage</h4>A relaxing massage to ease tension and relieve stress, focusing on the top layers of the muscle.
+                  <h4>Swedish Massage</h4>A relaxing massage to ease tension and
+                  relieve stress, focusing on the top layers of the muscle.
                 </p>
               </div>
               <div className="col-sm-4 text-right">
@@ -33,7 +34,10 @@ class prices extends React.Component {
             <div className="row my-4">
               <div className="col-sm-8">
                 <h4>Deep Tissue Massage</h4>
-                <p>A deeper more targeting massage, loosening tired muscles and reducing fatigue.</p>
+                <p>
+                  A deeper more targeting massage, loosening tired muscles and
+                  reducing fatigue.
+                </p>
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €45 &nbsp; 60 mins €55</p>
@@ -43,7 +47,9 @@ class prices extends React.Component {
               <div className="col-sm-8">
                 <h4>Full Body Massage</h4>
                 <p>
-                  An ultra rejuvenating massage using Swedish and Deep Tissue techniques, this treatment is tailored to suit your bodies requirements.
+                  An ultra rejuvenating massage using Swedish and Deep Tissue
+                  techniques, this treatment is tailored to suit your bodies
+                  requirements.
                 </p>
               </div>
               <div className="col-sm-4 text-right">
@@ -54,7 +60,10 @@ class prices extends React.Component {
             <div className="row my-4">
               <div className="col-sm-8">
                 <h4>Ayurvedic Face Massage </h4>
-                <p>The natural facelift - Improving skin tone, relaxing facial muscles to make you look and feel refreshed and younger.</p>
+                <p>
+                  The natural facelift - Improving skin tone, relaxing facial
+                  muscles to make you look and feel refreshed and younger.
+                </p>
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €40 &nbsp; 60 mins €48</p>
@@ -63,15 +72,33 @@ class prices extends React.Component {
             <div className="row my-4">
               <div className="col-sm-8">
                 <h4>Ayurvedic Foot Massage </h4>
-                <p>Relaxing the muscles around your feet and lower leg this massage re-energizes for another day of walking.</p>
+                <p>
+                  Relaxing the muscles around your feet and lower leg this
+                  massage re-energizes for another day of walking.
+                </p>
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €35</p>
               </div>
             </div>
+            <div className="row my-4">
+              <div className="col-sm-8">
+                <h4>Indian Head Massage </h4>
+                <p>
+                  Encourage deep relaxation with a head, neck, shoulder and face
+                  massage. It helps relieve stress and promotes relaxation,
+                  which maintains balance in the body & mind. It renews energy
+                  levels and aids in the relief of migraines and tension.
+                </p>
+              </div>
+              <div className="col-sm-4 text-right">
+                <p>40 mins €35</p>
+              </div>
+            </div>
 
             <p className="text-center">
-              All massages can be tailored to your needs from a targeted massage to a combination of any of the treatments.
+              All massages can be tailored to your needs from a targeted massage
+              to a combination of any of the treatments.
             </p>
           </div>
           <div className="text-center my-5">
