@@ -7,7 +7,7 @@ const AboutMe = ({ massage, relax, therapy }) => {
     <Fragment>
       <div id="AboutMe">
         {/* <h2 className="black mb-5">Services</h2> */}
-        <div className="row">
+        <div className="row home_about_white">
           <div className="container services__container">
             <div className="col-sm-4">
               <div className="AboutMe">
