@@ -6,7 +6,7 @@ import Menubar from "./Menubar";
 import Menu from "./Menu";
 import Footer from "./Footer";
 import MobileFooter from "./MobileFooter";
-
+import { Link } from "gatsby";
 class Layout extends React.Component {
   constructor(props) {
     super(props);
@@ -39,11 +39,21 @@ class Layout extends React.Component {
     const { children } = this.props;
 
     return (
-      <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? "is-menu-visible" : ""}`}>
+      <div
+        className={`body ${this.state.loading} ${
+          this.state.isMenuVisible ? "is-menu-visible" : ""
+        }`}
+      >
         <Menubar onToggleMenu={this.handleToggleMenu} />
         {children}
         <Footer />
         <MobileFooter />
+        <div className="contact_button">
+          {" "}
+          <button>
+            <Link to="/contact">Contact</Link>
+          </button>
+        </div>
         <Menu onToggleMenu={this.handleToggleMenu} />
       </div>
     );

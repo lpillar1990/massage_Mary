@@ -29,7 +29,7 @@ function Menubar() {
               Ayurvedic Foot Massage
             </NavDropdown.Item>
             {/* <NavDropdown.Item href="/indian-head-massage">
-              Ayurvedic Foot Massage
+              Indian Head Massage
             </NavDropdown.Item> */}
             <NavDropdown.Item href="/prices">Full Menu</NavDropdown.Item>
           </NavDropdown>
