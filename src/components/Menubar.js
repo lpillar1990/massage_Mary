@@ -18,16 +18,19 @@ function Menubar() {
           <Nav.Link href="/about">About Me</Nav.Link>
           {/* <Nav.Link href="/services">Services</Nav.Link> */}
           <NavDropdown title="Treatments" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/deeptissuemassage">
+            <NavDropdown.Item href="/deep-tissue-massage">
               Deep Tissue Massage
             </NavDropdown.Item>
             <NavDropdown.Item href="/swedish">Swedish Massage</NavDropdown.Item>
-            <NavDropdown.Item href="/facialmassage">
+            <NavDropdown.Item href="/facial-massage">
               Ayurvedic Face Massage
             </NavDropdown.Item>
-            <NavDropdown.Item href="/footmassage">
+            <NavDropdown.Item href="/foot-massage">
               Ayurvedic Foot Massage
             </NavDropdown.Item>
+            {/* <NavDropdown.Item href="/indian-head-massage">
+              Ayurvedic Foot Massage
+            </NavDropdown.Item> */}
             <NavDropdown.Item href="/prices">Full Menu</NavDropdown.Item>
           </NavDropdown>
 
