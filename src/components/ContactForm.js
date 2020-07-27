@@ -76,7 +76,7 @@ const BannerContact = () => (
                   </button>
                   <br />
                   <div className="mx-auto text-center">
-                    <a href="https://wa.me/00351911096630" target="__blank">
+                    <a href="https://wa.me/+351911096630" target="__blank">
                       <img src={whatsapp} alt="whatsapp" width="200px" />
                     </a>
                   </div>
