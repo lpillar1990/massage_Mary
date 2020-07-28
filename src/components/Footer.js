@@ -61,7 +61,7 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="https://www.instagram.com/m.lynch.massage/?hl=en"
+                href="https://www.instagram.com/marylynchmassage"
                 target="__blank"
               >
                 <img src={insta} alt="Instagram" />
