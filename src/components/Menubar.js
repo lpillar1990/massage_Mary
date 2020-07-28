@@ -14,27 +14,37 @@ function Menubar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/about">About Me</Nav.Link>
+          <Nav.Link>
+            <Link to="/">Home</Link>
+          </Nav.Link>
+          <Nav.Link>
+            <Link to="/about">About Me</Link>
+          </Nav.Link>
           {/* <Nav.Link href="/services">Services</Nav.Link> */}
           <NavDropdown title="Treatments" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/deep-tissue-massage">
-              Deep Tissue Massage
+            <NavDropdown.Item>
+              <Link to="/deep-tissue-massage">Deep Tissue Massage</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/swedish">Swedish Massage</NavDropdown.Item>
-            <NavDropdown.Item href="/facial-massage">
-              Ayurvedic Face Massage
+            <NavDropdown.Item>
+              <Link to="/swedish">Swedish Massage</Link>
             </NavDropdown.Item>
-            <NavDropdown.Item href="/foot-massage">
-              Ayurvedic Foot Massage
+            <NavDropdown.Item>
+              <Link to="/facial-massage">Ayurvedic Face Massage</Link>
             </NavDropdown.Item>
-            {/* <NavDropdown.Item href="/indian-head-massage">
-              Indian Head Massage
-            </NavDropdown.Item> */}
-            <NavDropdown.Item href="/prices">Full Menu</NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/foot-massage">Ayurvedic Foot Massage</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/indian-head-massage">Indian Head Massage</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/prices">Full Menu</Link>
+            </NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link>
+            <Link to="/contact">Contact</Link>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -2,17 +2,17 @@ import React from "react";
 import { Link } from "gatsby";
 import Helmet from "react-helmet";
 import Layout from "../components/Layout";
-import treatment from "../assets/images/foot.jpg";
+import treatment from "../assets/images/indian.jpg";
 function indianheadmassage() {
   return (
     <Layout>
       <Helmet
-        title="Mary Lynch | Ayurvedic Foot Massage"
+        title="Mary Lynch | Indian Head Massage"
         meta={[
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Massage Lagos, Massage Lagos Therapy",
+            content: "Massage, Algarve, Lagos",
           },
         ]}
       ></Helmet>

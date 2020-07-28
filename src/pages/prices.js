@@ -13,7 +13,7 @@ class prices extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+              content: "Massage, Algarve, Lagos",
             },
           ]}
         ></Helmet>
@@ -22,13 +22,17 @@ class prices extends React.Component {
           <div className="container my-5">
             <div className="row my-4 prices">
               <div className="col-sm-8">
+                <h4>Swedish Massage</h4>
                 <p>
-                  <h4>Swedish Massage</h4>A relaxing massage to ease tension and
-                  relieve stress, focusing on the top layers of the muscle.
+                  A relaxing massage to ease tension and relieve stress,
+                  focusing on the top layers of the muscle.
                 </p>
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €45 &nbsp; 60 mins €55</p>
+                <Link to="/swedish">
+                  <button>View More</button>
+                </Link>
               </div>
             </div>
             <div className="row my-4">
@@ -41,6 +45,9 @@ class prices extends React.Component {
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €45 &nbsp; 60 mins €55</p>
+                <Link to="/deep-tissue-massage">
+                  <button>View More</button>
+                </Link>
               </div>
             </div>
             <div className="row my-4">
@@ -54,7 +61,6 @@ class prices extends React.Component {
               </div>
               <div className="col-sm-4 text-right">
                 <p>60 mins €55 &nbsp; 90 mins €70</p>
-                <p></p>
               </div>
             </div>
             <div className="row my-4">
@@ -67,6 +73,9 @@ class prices extends React.Component {
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €40 &nbsp; 60 mins €48</p>
+                <Link to="/facial-massage">
+                  <button>View More</button>
+                </Link>
               </div>
             </div>
             <div className="row my-4">
@@ -79,6 +88,9 @@ class prices extends React.Component {
               </div>
               <div className="col-sm-4 text-right">
                 <p>45 mins €35</p>
+                <Link to="/foot-massage">
+                  <button>View More</button>
+                </Link>
               </div>
             </div>
             <div className="row my-4">
@@ -86,13 +98,14 @@ class prices extends React.Component {
                 <h4>Indian Head Massage </h4>
                 <p>
                   Encourage deep relaxation with a head, neck, shoulder and face
-                  massage. It helps relieve stress and promotes relaxation,
-                  which maintains balance in the body & mind. It renews energy
-                  levels and aids in the relief of migraines and tension.
+                  massage. It helps relieve stress and promotes relaxation.
                 </p>
               </div>
               <div className="col-sm-4 text-right">
                 <p>40 mins €35</p>
+                <Link to="/indian-head-massage">
+                  <button>View More</button>
+                </Link>
               </div>
             </div>
 

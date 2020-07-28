@@ -16,7 +16,7 @@ class services extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+              content: "Massage, Algarve, Lagos",
             },
           ]}
         ></Helmet>
@@ -46,10 +46,14 @@ export const query = graphql`
     serviceImage2: file(relativePath: { eq: "christin-hume-unsplash.jpg" }) {
       ...serviceImage
     }
-    serviceImage3: file(relativePath: { eq: "emiliano-vittoriosi-unsplash.jpg" }) {
+    serviceImage3: file(
+      relativePath: { eq: "emiliano-vittoriosi-unsplash.jpg" }
+    ) {
       ...serviceImage
     }
-    serviceImage4: file(relativePath: { eq: "deniz-altindas-t1XLQvDqt_4-unsplash.jpg" }) {
+    serviceImage4: file(
+      relativePath: { eq: "deniz-altindas-t1XLQvDqt_4-unsplash.jpg" }
+    ) {
       ...serviceImage
     }
   }

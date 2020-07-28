@@ -13,7 +13,7 @@ class AboutUs extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Massage Lagos, Massage Lagos Therapy",
+              content: "Massage, Algarve, Lagos",
             },
           ]}
         ></Helmet>
@@ -34,30 +34,14 @@ class AboutUs extends React.Component {
 
 export default AboutUs;
 
-export const teamImage = graphql`
-  fragment teamImage on File {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`;
-
-export const aboutImage = graphql`
-  fragment aboutImage on File {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-`;
-
 export const query = graphql`
   query {
-    anastasia: file(relativePath: { eq: "noah-buscher-unsplash.jpg" }) {
-      ...teamImage
+    anastasia: file(relativePath: { eq: "flowers.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
     }
   }
 `;
