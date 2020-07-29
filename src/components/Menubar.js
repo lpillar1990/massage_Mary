@@ -14,13 +14,12 @@ function Menubar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/">Home</Link>
-          </Nav.Link>
-          <Nav.Link>
+          </div>
+          <div className="nav-link">
             <Link to="/about">About Me</Link>
-          </Nav.Link>
-          {/* <Nav.Link href="/services">Services</Nav.Link> */}
+          </div>
           <NavDropdown title="Treatments" id="basic-nav-dropdown">
             <NavDropdown.Item>
               <Link to="/deep-tissue-massage">Deep Tissue Massage</Link>
@@ -42,9 +41,9 @@ function Menubar() {
             </NavDropdown.Item>
           </NavDropdown>
 
-          <Nav.Link>
+          <div className="nav-link">
             <Link to="/contact">Contact</Link>
-          </Nav.Link>
+          </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
