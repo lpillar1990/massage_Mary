@@ -65,7 +65,8 @@ class HomeIndex extends React.Component {
                 ,&nbsp;{" "}
                 <a href="/facialmassage">
                   <u>Ayurvedic Face</u>
-                </a>{" "}
+                </a>
+                {"   "}
                 and{" "}
                 <a href="/footmassage">
                   <u>Ayurvedic Foot Massage</u>

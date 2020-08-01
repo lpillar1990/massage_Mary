@@ -55,7 +55,7 @@ const MobileFooter = () => (
           <br />
           <br />
           <h4>Location</h4>
-          <p>Burgau, Lagos, Algarve, Portugal</p>
+          <p>Lagos, Algarve, Portugal</p>
         </div>
       </div>
     </div>
