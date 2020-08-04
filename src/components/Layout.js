@@ -50,7 +50,7 @@ class Layout extends React.Component {
         <MobileFooter />
         <div className="contact_button">
           {" "}
-          <button>
+          <button style={{ border: "1px solid black" }}>
             <Link to="/contact">Contact</Link>
           </button>
         </div>
