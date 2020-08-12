@@ -12,7 +12,7 @@ function indianheadmassage() {
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Algarve, Lagos",
+            content: "Indian head massage, Algarve, Lagos",
           },
         ]}
       ></Helmet>

@@ -13,7 +13,7 @@ function swedish() {
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Algarve, Lagos",
+            content: "Swedish Massage, Algarve, Lagos",
           },
         ]}
       ></Helmet>

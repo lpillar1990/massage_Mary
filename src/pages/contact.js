@@ -15,7 +15,7 @@ class Contact extends React.Component {
             { name: "description", content: "Massage therapy Lagos" },
             {
               name: "keywords",
-              content: "Massage, Algarve, Lagos",
+              content: "Full body massage, Algarve, Lagos",
             },
           ]}
         ></Helmet>

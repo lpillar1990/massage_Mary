@@ -13,7 +13,7 @@ function deeptissuemassage() {
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Algarve, Lagos",
+            content: "Deep Tissue Massage, Algarve, Lagos",
           },
         ]}
       ></Helmet>

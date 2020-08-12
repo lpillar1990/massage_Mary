@@ -12,7 +12,7 @@ function footmassage() {
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Algarve, Lagos",
+            content: "Foot massage, Algarve, Lagos",
           },
         ]}
       ></Helmet>

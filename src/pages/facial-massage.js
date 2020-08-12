@@ -12,7 +12,7 @@ function facialmassage() {
           { name: "description", content: "Massage therapy Lagos" },
           {
             name: "keywords",
-            content: "Massage, Algarve, Lagos",
+            content: "Ayurvedic, facial, Algarve, Lagos",
           },
         ]}
       ></Helmet>
