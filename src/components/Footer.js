@@ -74,7 +74,7 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a href="http://m.me/MassageAlgarveWest" target="_blank">
+              <a href="http://m.me/MassageAlgarveWest" target="__blank">
                 <img src={messenger} alt="" />
               </a>
             </li>
