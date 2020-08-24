@@ -23,6 +23,12 @@ const config = {
     "gatsby-plugin-sass",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-176174776-1", // <- your tracking ID
+      },
+    },
   ],
 };
 module.exports = {
