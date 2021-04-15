@@ -68,6 +68,10 @@ class HomeIndex extends React.Component {
                   ,&nbsp; <a href="/facial-massage">Ayurvedic Face</a>
                   {"   "}
                   and <a href="/foot-massage">Ayurvedic Foot Massage</a>.
+                  <p className="pt-5">
+                  Parent & Baby Services:<br/>
+                  <a href="/parent-and-baby">Baby Massage & Baby Yoga</a>
+                  </p>
                 </div>
               </div>
             </div>

@@ -26,9 +26,9 @@ function footmassage() {
               <img src={babyFeet} alt="treatment" />
             </div>
             <div className="col-md-12 text-center">
-              <h3 className="py-5">
+              <p className="pt-5 pb-2">
                 <u>A Holistic approach for health &amp; wellbeing for parent &amp; baby.</u>
-              </h3>
+              </p>
               <br />
               <p>
                 Baby Massage &amp; Baby Yoga have wonderful benefits for both parent and baby.
@@ -54,7 +54,8 @@ function footmassage() {
           </div>
           <div className="row py-5">
             <div className="col-md-12">
-              <h3 className="py-5">Baby Massage</h3>
+              <h3 className="py-5 text-center">Baby Massage</h3>
+              <img src={babyFace} alt="treatment" />
               <p className="py-2">
                 Think of baby massage as a warm gentle communication between parent and baby using Swedish Massage, Reflexology and gentle stretches.  It helps baby develop feelings of being loved, respected and secure. 
               </p>
@@ -63,42 +64,37 @@ function footmassage() {
               </p>
             </div>
           </div>
-          <div className="row py-5">
-            <div className="col-md-4 mt-1">
-              <div style={{border: "solid gray 1px", borderRadius: "10px", padding: "5px 20px"}}>
-                <p className="pb-2">
-                  Group: 5 session course: <br/> €65 (max 8 adults per class)
-                </p>
-                <p className="pb-2">
-                  Bond deeply with your baby in a supportive group environment
-                </p>
-                <div className="text-center mt-4">
-                  <button>
-                    <Link style={{ color: "white" }} to="/contact">
-                      Book Now
-                    </Link>
-                  </button>
-                </div>
-              </div>
-              <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px"}}>
-                <p className="py-2">
-                  1 to 1: 	Single session: €30
-                  <br/>4 session course: €100
-                </p>
-                <p className="">
-                  Tailored sessions to meet the needs of the individual parent & baby
-                </p>
-                <div className="text-center mt-4">
-                  <button>
-                    <Link style={{ color: "white" }} to="/contact">
-                      Book Now
-                    </Link>
-                  </button>
-                </div>
+          <div className="d-flex justify-content-around">
+            <div style={{border: "solid gray 1px", borderRadius: "10px", padding: "5px 20px", width:"33%"}}>
+              <p className="pb-2">
+                Group: 5 session course: <br/> €65 (max 8 adults per class)
+              </p>
+              <p className="pb-2">
+                Bond deeply with your baby in a supportive group environment
+              </p>
+              <div className="text-center mt-4">
+                <button>
+                  <Link style={{ color: "white" }} to="/contact">
+                    Book Now
+                  </Link>
+                </button>
               </div>
             </div>
-            <div className="col-md-8 my-auto">
-              <img src={babyFace} alt="treatment" />
+            <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px", width:"33%"}}>
+              <p className="py-2">
+                1 to 1: 	Single session: €30
+                <br/>4 session course: €100
+              </p>
+              <p className="">
+                Tailored sessions to meet the needs of the individual parent & baby
+              </p>
+              <div className="text-center mt-4">
+                <button>
+                  <Link style={{ color: "white" }} to="/contact">
+                    Book Now
+                  </Link>
+                </button>
+              </div>
             </div>
           </div>
           <div className="text-center">
@@ -119,16 +115,17 @@ function footmassage() {
           </div>
           <div className="row py-5">
             <div className="col-md-12">
-              <h3 className="py-5">Baby Yoga</h3>
+              <h3 className="py-5 text-center">Baby Yoga</h3>
+              <div className="col-md-12">
+                <img src={babyFeetHearts} alt="treatment" />
+              </div>
               <p className="py-2">
               Babies are natural yogis.  Baby yoga uses gentle stretches and yoga inspired movements for parents to do with their baby. It incorporates over-clothes massage, breathing techniques, songs, rhymes and sensory play. A session delivers holistic support to babies overall development and wellbeing. 
               </p>
             </div>
-            <div className="col-md-8">
-              <img src={babyFeetHearts} alt="treatment" />
-            </div>
-            <div className="col-md-4 my-auto">
-              <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px"}}>
+           
+            <div className=" col-sm-12 d-flex justify-content-center">
+              <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px", width:"33%"}}>
                 <p className="py-2">
                 Group: 5 session course: <br/> €60 (max 8 adults per class)
                 </p>
