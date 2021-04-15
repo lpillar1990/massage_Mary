@@ -22,10 +22,10 @@ function footmassage() {
       <div id="main">
         <div className="container p-5">
           <div className="row justify-content-center">
-            <div className="col-sm-12">
+            <div className="col-md-12">
               <img src={babyFeet} alt="treatment" />
             </div>
-            <div className="col-sm-12 text-center">
+            <div className="col-md-12 text-center">
               <h3 className="py-5">
                 <u>A Holistic approach for health &amp; wellbeing for parent &amp; baby.</u>
               </h3>
@@ -39,10 +39,10 @@ function footmassage() {
               </p>
               <br />
             </div>
-            <div className="col-sm-12">
+            <div className="col-md-12">
               <img src={babyArms} alt="treatment" />
             </div>
-            <div className="col-sm-12">
+            <div className="col-md-12">
               <p className="pb-2 pt-4">
               Research has shown massaged babies were more alert and active, they gained more weight and had improved temperament.  Massage and yoga can improve growth and development and can give useful tools for parents to use for common ailments such as bad sleeping habits, constipation, trapped wind, colic and many more. 
               </p><p className="py-2">Baby Massage & Yoga can trigger the release of oxytocin, our ‘love hormone’ in both baby and parent.  
@@ -53,7 +53,7 @@ function footmassage() {
             </div>
           </div>
           <div className="row py-5">
-            <div className="col-sm-12">
+            <div className="col-md-12">
               <h3 className="py-5">Baby Massage</h3>
               <p className="py-2">
                 Think of baby massage as a warm gentle communication between parent and baby using Swedish Massage, Reflexology and gentle stretches.  It helps baby develop feelings of being loved, respected and secure. 
@@ -64,7 +64,7 @@ function footmassage() {
             </div>
           </div>
           <div className="row py-5">
-            <div className="col-sm-4 mt-1">
+            <div className="col-md-4 mt-1">
               <div style={{border: "solid gray 1px", borderRadius: "10px", padding: "5px 20px"}}>
                 <p className="pb-2">
                   Group: 5 session course: <br/> €65 (max 8 adults per class)
@@ -97,7 +97,7 @@ function footmassage() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-8 my-auto">
+            <div className="col-md-8 my-auto">
               <img src={babyFace} alt="treatment" />
             </div>
           </div>
@@ -118,16 +118,16 @@ function footmassage() {
             </p>
           </div>
           <div className="row py-5">
-            <div className="col-sm-12">
+            <div className="col-md-12">
               <h3 className="py-5">Baby Yoga</h3>
               <p className="py-2">
               Babies are natural yogis.  Baby yoga uses gentle stretches and yoga inspired movements for parents to do with their baby. It incorporates over-clothes massage, breathing techniques, songs, rhymes and sensory play. A session delivers holistic support to babies overall development and wellbeing. 
               </p>
             </div>
-            <div className="col-sm-8">
+            <div className="col-md-8">
               <img src={babyFeetHearts} alt="treatment" />
             </div>
-            <div className="col-sm-4 my-auto">
+            <div className="col-md-4 my-auto">
               <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px"}}>
                 <p className="py-2">
                 Group: 5 session course: <br/> €60 (max 8 adults per class)
