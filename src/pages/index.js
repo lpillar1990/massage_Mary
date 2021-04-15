@@ -49,6 +49,11 @@ class HomeIndex extends React.Component {
                   suits your needs.
                 </p>
               </div>
+              <div className="row home_about">
+                <p className="">
+                  Parent &amp; Baby: provides support for new parents with Baby Massage and Baby Yoga classes.
+                </p>
+              </div>
             </div>
           </section>
           <section className="mx-auto text-center py-5">

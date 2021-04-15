@@ -40,6 +40,9 @@ function Menubar() {
               <Link to="/prices">Full Menu</Link>
             </NavDropdown.Item>
           </NavDropdown>
+          <div className="nav-link">
+            <Link to="/parent-and-baby">Parent &amp; Baby</Link>
+          </div>
 
           <div className="nav-link">
             <Link to="/contact">Contact</Link>

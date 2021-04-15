@@ -15,9 +15,7 @@ const MeetTheTeam = ({ mary1, mary2 }) => {
                 </div>
                 <div className="col-sm-6">
                   <p>
-                    After beginning my massage journey studying Swedish Massage
-                    in London, I then continued my training qualifying in Deep
-                    Tissue and Ayurvedic Massage.
+                    After beginning my massage journey studying Swedish Massage in London, I then continued my training qualifying in Deep Tissue, Ayurvedic Massage &amp; Baby Massage &amp; Yoga.
                     <br />
                     <br />
                     My true love and passion for helping people through massage
