@@ -64,9 +64,8 @@ function footmassage() {
               </p>
             </div>
           </div>
-          <div className="d-flex justify-content-around">
-            <div className="row">
-              <div className="col-md-6 my-2 p-2" style={{border:"solid 1px gray", borderRadius:"20px"}}>
+          <div className="row d-flex justify-content-around">
+            <div className="col-md-5 m-2 p-2" style={{border:"solid 1px gray", borderRadius:"20px"}}>
               <p className="pb-2">
                 Group: 5 session course: <br/> €65 (max 8 adults per class)
               </p>
@@ -81,7 +80,7 @@ function footmassage() {
                 </button>
               </div>
               </div>
-              <div className="col-md-6 my-2 p-2" style={{border:"solid 1px gray", borderRadius:"20px"}}>
+              <div className="col-md-5 m-2 p-2" style={{border:"solid 1px gray", borderRadius:"20px"}}>
               <p className="py-2">
                 1 to 1: 	Single session: €30
                 <br/>4 session course: €100
@@ -96,9 +95,7 @@ function footmassage() {
                   </Link>
                 </button>
               </div>
-              </div>
             </div>
-           
           </div>
           <div className="text-center">
             <p className="py-2">
@@ -126,19 +123,18 @@ function footmassage() {
               Babies are natural yogis.  Baby yoga uses gentle stretches and yoga inspired movements for parents to do with their baby. It incorporates over-clothes massage, breathing techniques, songs, rhymes and sensory play. A session delivers holistic support to babies overall development and wellbeing. 
               </p>
             </div>
-           
-            <div className=" col-sm-12 d-flex justify-content-center">
-              <div style={{marginTop: "10px", padding: "5px 20px"}}>
-                <p className="py-2">
+          </div>
+          <div className="row d-flex justify-content-center">
+            <div className=" col-md-4 p-2 text-center" style={{border:"solid 1px gray", borderRadius:"20px"}}>
+              <p className="py-2">
                 Group: 5 session course: <br/> €60 (max 8 adults per class)
-                </p>
-                <div className="text-center mt-4">
-                  <button>
-                    <Link style={{ color: "white" }} to="/contact">
-                      Book Now
-                    </Link>
-                  </button>
-                </div>
+              </p>
+              <div className="text-center mt-4">
+                <button>
+                  <Link style={{ color: "white" }} to="/contact">
+                    Book Now
+                  </Link>
+                </button>
               </div>
             </div>
           </div>
