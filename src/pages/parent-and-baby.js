@@ -65,7 +65,7 @@ function footmassage() {
             </div>
           </div>
           <div className="d-flex justify-content-around">
-            <div style={{border: "solid gray 1px", borderRadius: "10px", padding: "5px 20px", width:"33%"}}>
+            <div style={{marginTop: "10px", padding: "5px 20px"}}>
               <p className="pb-2">
                 Group: 5 session course: <br/> €65 (max 8 adults per class)
               </p>
@@ -80,7 +80,7 @@ function footmassage() {
                 </button>
               </div>
             </div>
-            <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px", width:"33%"}}>
+              <div style={{marginTop: "10px", padding: "5px 20px"}}>
               <p className="py-2">
                 1 to 1: 	Single session: €30
                 <br/>4 session course: €100
@@ -125,7 +125,7 @@ function footmassage() {
             </div>
            
             <div className=" col-sm-12 d-flex justify-content-center">
-              <div style={{border: "solid gray 1px", borderRadius: "10px", marginTop: "10px", padding: "5px 20px", width:"33%"}}>
+              <div style={{marginTop: "10px", padding: "5px 20px"}}>
                 <p className="py-2">
                 Group: 5 session course: <br/> €60 (max 8 adults per class)
                 </p>
