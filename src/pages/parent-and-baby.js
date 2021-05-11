@@ -67,7 +67,7 @@ function footmassage() {
           <div className="row d-flex justify-content-around">
             <div className="col-md-5 m-2 p-2" style={{border:"solid 1px gray", borderRadius:"20px"}}>
               <p className="pb-2">
-                Group: 5 session course: <br/> €65 (max 8 adults per class)
+                Group: 5 session course: <br/> €70 (max 8 adults per class)
               </p>
               <p className="pb-2">
                 Bond deeply with your baby in a supportive group environment
@@ -82,8 +82,8 @@ function footmassage() {
               </div>
               <div className="col-md-5 m-2 p-2" style={{border:"solid 1px gray", borderRadius:"20px"}}>
               <p className="py-2">
-                1 to 1: 	Single session: €30
-                <br/>4 session course: €100
+                1 to 1: 	Single session: €45
+                <br/>4 session course: €150
               </p>
               <p className="">
                 Tailored sessions to meet the needs of the individual parent & baby
@@ -127,7 +127,7 @@ function footmassage() {
           <div className="row d-flex justify-content-center">
             <div className=" col-md-4 p-2 text-center" style={{border:"solid 1px gray", borderRadius:"20px"}}>
               <p className="py-2">
-                Group: 5 session course: <br/> €60 (max 8 adults per class)
+                Group: 5 session course: <br/> €70 (max 8 adults per class)
               </p>
               <div className="text-center mt-4">
                 <button>
